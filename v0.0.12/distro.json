@@ -1,0 +1,254 @@
+[
+  {
+    "name": "cmake",
+    "platforms": {
+      "macos": {
+        "x86_64": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-Darwin-x86_64.zip",
+          "sha1": "c7aeea101063fe54911519fae5427096ed557398",
+          "root": "cmake-3.18.4-Darwin-x86_64/CMake.app/Contents",
+          "module_path": "cmake/share/cmake-3.17/Modules",
+          "path": ["bin"]
+        }
+      },
+      "linux": {
+        "x86_64": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-Linux-x86_64.zip",
+          "sha1": "7e4b5225c96db5a135c034b4220925c87b4f9a5f",
+          "root": "cmake-3.18.4-Linux-x86_64",
+          "module_path": "cmake/share/cmake-3.17/Modules",
+          "path": ["bin"]
+        }
+      },
+      "windows": {
+        "x86_64": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-win64-x64.zip",
+          "sha1": "51e611bb39f8f4c49a160085048e0dd24ec22812",
+          "root": "cmake-3.18.4-win64-x64",
+          "module_path": "cmake/share/cmake-3.17/Modules",
+          "path": ["bin"]
+        }
+      }
+    }
+  },
+  {
+    "name": "make",
+    "platforms": {
+      "windows": {
+        "x86_64": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/make/mingw32-make.zip",
+          "sha1": "808948b4cbf6c3f1812cb5922e926fe8479e7be3",
+          "root": "mingw32-make",
+          "path": ["."]
+        }
+      },
+      "linux": {
+        "universal": {
+          "url": "",
+          "sha1": "",
+          "root": ""
+        }
+      },
+      "macos": {
+        "universal": {
+          "url": "",
+          "sha1": "",
+          "root": ""
+        }
+      }
+    }
+  },
+
+  {
+    "name": "polly",
+    "platforms": {
+      "all": {
+        "universal": {
+          "url": "https://github.com/nxxm/polly/archive/87b706d516bee74c419a7bd6b2a6c9933aa25481.zip",
+          "sha1": "f5968d8d191ca46057e7557898869dab74bdd40d",
+          "root": "polly-87b706d516bee74c419a7bd6b2a6c9933aa25481"
+        }
+      }
+    }
+  },
+
+  {
+    "name": "perl",
+    "platforms": {
+      "windows": {
+        "x86_64": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/perl/strawberry-perl-5.30.3.1-windows-64bit.zip",
+          "sha1": "ac3ce102081ac6f9b3b43d81c30ac77b08493eff",
+          "root": "",
+          "path": ["perl/bin"]
+        }
+      }
+    }
+  },
+
+  {
+    "name": "python",
+    "platforms": {
+      "macos": {
+        "x86_64": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/python/python-3.8.0-Darwin-x64.zip",
+          "sha1": "54b633011cd24867662c9dbaeda596bb3261a09c",
+          "root": "",
+          "path": [".", "bin"]
+        }
+      },
+      "linux": {
+        "universal": {
+          "url": "",
+          "sha1": "",
+          "root": ""
+        }
+      },
+      "windows": {
+        "x86_64": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/python/python-3.7.0-embed-amd64.zip",
+          "sha1": "30314b4574f1f162767a6a66a64410b9a9e2829d",
+          "root": "",
+          "path": [".", "bin"]
+        }
+      }
+    }
+  },
+
+  {
+    "name": "nodejs",
+    "platforms": {
+      "macos": {
+        "x86_64": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/nodejs/node-v14.7.0-darwin-x64.zip",
+          "sha1": "71c4c7ceddafd46143832abc136c592192c70713",
+          "root": "node-v14.7.0-darwin-x64",
+          "path": [".", "bin"]
+        }
+      },
+      "linux": {
+        "x86_64": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/nodejs/node-v14.7.0-linux-x64.zip",
+          "sha1": "4472af28a2bd943fe64f4dfb9d44c5ebde152ec0",
+          "root": "node-v14.7.0-linux-x64",
+          "path": [".", "bin"]
+        }
+      },
+      "windows": {
+        "x86_64": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/nodejs/node-v14.7.0-win-x64.zip",
+          "sha1": "ec44ef72df91ffc4b02df49e75c46b8f845fab5e",
+          "root": "node-v14.7.0-win-x64",
+          "path": [".", "bin"]
+        }
+      }
+    }
+  },
+
+  {
+    "name": "emsdk",
+    "platforms": {
+      "all": {
+        "universal": {
+          "url": "https://github.com/emscripten-core/emsdk/archive/e10be710da27d3d4391194826a02a827bb2edacb.zip",
+          "sha1": "4cc5bdcb9125bd1e004851d689e0ee494a91dbbc",
+          "root": "emsdk-e10be710da27d3d4391194826a02a827bb2edacb",
+          "path": ["fakejava", "bin", "upstream/emscripten", "python/3.7.4-pywin32_64bit"],
+          "patches": [
+            {
+              "url": "https://raw.githubusercontent.com/nxxm/emscripten/nxxm/1.39.5-staging/emcc.py",
+              "sha1": "0ac71aa64e66548649c1bfbbaa37a4e1935a181b",
+              "relative_dest_file": "emcc.py"
+            }
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "name": "hunter",
+    "platforms": {
+      "all": {
+        "universal": {
+          "url": "https://github.com/nxxm/hunter/archive/696b2993ba48ad885a46243995a0360c61d78453.zip",
+          "sha1": "a32e265896a99efec281f22efc9c8a12b1e0c1f8",
+          "root": "hunter-696b2993ba48ad885a46243995a0360c61d78453/",
+          "target": "platform"
+        }
+      }
+    }
+  },
+
+  {
+    "name": "hunter_gate",
+    "platforms": {
+      "all": {
+        "universal": {
+          "url": "https://github.com/hunter-packages/gate/archive/42c1c27cdd556dcbc358c6ba8ad7a72a68ee2a62.zip",
+          "sha1": "a72c0958bdfdb4666ee077cdd40c22875a082915",
+          "root": "gate-42c1c27cdd556dcbc358c6ba8ad7a72a68ee2a62/cmake/HunterGate.cmake",
+          "relative_dest_file": "HunterGate.cmake"
+        }
+      }
+    }
+  },
+  {
+    "name": "clang",
+    "platforms": {
+      "macos": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/clang/clang-11-darwin-64bit.zip",
+          "sha1": "32f9b383da2d46419b6dc48a162691c188be26d9",
+          "root": "clang-macos",
+          "path": ["bin"]
+        }
+      },
+      "linux": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/clang/clang-11-linux-64bit.zip",
+          "sha1": "6c6f20874e46148ea604251f38105e68af656725",
+          "root": "clang-linux",
+          "path": ["bin"]
+        }
+      },
+      "windows": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/clang/mingw64-clang-11-windows-64bit.zip",
+          "sha1": "17164ca26a7fca5833976cf8da3976ee63183e14",
+          "root": "mingw64-clang",
+          "path": ["bin"]
+        }
+      }
+    }
+  },
+  {
+    "name": "go",
+    "platforms": {
+      "macos": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/go/go_1.14.14_darwin_64bit.zip",
+          "sha1": "1e2561d8307eb513a23eb7c9a8b769b800db27af",
+          "root": "go",
+          "path": ["bin"]
+        }
+      },
+      "linux": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/go/go_1.14.14_linux_64bit.zip",
+          "sha1": "9fc8f520528b3f353b1feeb1279f241d2a5c3677",
+          "root": "go",
+          "path": ["bin"]
+        }
+      },
+      "windows": {
+        "universal": {
+          "url": "http://nxxm.indigenious.io/distro/v0.0.12/go/go_1.14.14_windows_x86_64.zip",
+          "sha1": "782c595c1aece9fea8bfa7a14bfbf52e206a0f91",
+          "root": "go",
+          "path": ["bin"]
+        }
+      }
+    }
+  }
+]
