@@ -171,9 +171,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/nxxm/hunter/archive/fd732959ddd7c8ac96925f4138819116bb3825e6.zip",
-          "sha1": "dfe14894ce35bd2176593066f73e2a7b62a8d35e",
-          "root": "hunter-fd732959ddd7c8ac96925f4138819116bb3825e6/",
+          "url": "https://github.com/nxxm/hunter/archive/61d77fa439a8fa63d2fedb7789fcad672b7a216b.zip",
+          "sha1": "b0bb70adaaa89a5ab45336f653a4dce3747836e1",
+          "root": "hunter-61d77fa439a8fa63d2fedb7789fcad672b7a216b/",
           "target": "platform"
         }
       }
@@ -214,9 +214,9 @@
       },
       "windows": {
         "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/clang/mingw64-clang-11-windows-64bit.zip",
-          "sha1": "17164ca26a7fca5833976cf8da3976ee63183e14",
-          "root": "mingw64-clang",
+          "url": "https://github.com/nxxm/mingw64-clang-on-windows/archive/1add8bb57ee64e4c4313049f817e2b34ccc3974a.zip",
+          "sha1": "7b3e150c6070da525c654cfdb5af7b70fe6bace1",
+          "root": "mingw64-clang-on-windows-1add8bb57ee64e4c4313049f817e2b34ccc3974a/mingw64-clang",
           "path": ["bin"]
         }
       }
