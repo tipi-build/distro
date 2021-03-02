@@ -64,9 +64,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/nxxm/polly/archive/87b706d516bee74c419a7bd6b2a6c9933aa25481.zip",
-          "sha1": "f5968d8d191ca46057e7557898869dab74bdd40d",
-          "root": "polly-87b706d516bee74c419a7bd6b2a6c9933aa25481"
+          "url": "https://github.com/nxxm/polly/archive/2ba133f12840702df37e6de99c14cc6ba69a8389.zip",
+          "sha1": "7ed9e401ef726b2331b17b53c392509af0f2e507",
+          "root": "polly-2ba133f12840702df37e6de99c14cc6ba69a8389"
         }
       }
     }
