@@ -150,9 +150,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/emscripten-core/emsdk/archive/e10be710da27d3d4391194826a02a827bb2edacb.zip",
-          "sha1": "4cc5bdcb9125bd1e004851d689e0ee494a91dbbc",
-          "root": "emsdk-e10be710da27d3d4391194826a02a827bb2edacb",
+          "url": "https://github.com/emscripten-core/emsdk/archive/369013943283939412fb2807bb0d2ded8ebd5a9e.zip",
+          "sha1": "f7ee1e1c732ce1e28779c16cd6cd1deb397a8999",
+          "root": "emsdk-369013943283939412fb2807bb0d2ded8ebd5a9e",
           "path": ["fakejava", "bin", "upstream/emscripten", "python/3.7.4-pywin32_64bit"],
           "patches": [
             {
