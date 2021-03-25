@@ -150,17 +150,10 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/emscripten-core/emsdk/archive/369013943283939412fb2807bb0d2ded8ebd5a9e.zip",
-          "sha1": "f7ee1e1c732ce1e28779c16cd6cd1deb397a8999",
-          "root": "emsdk-369013943283939412fb2807bb0d2ded8ebd5a9e",
-          "path": ["fakejava", "bin", "upstream/emscripten", "python/3.7.4-pywin32_64bit"],
-          "patches": [
-            {
-              "url": "https://raw.githubusercontent.com/nxxm/emscripten/nxxm/1.39.5-staging/emcc.py",
-              "sha1": "0ac71aa64e66548649c1bfbbaa37a4e1935a181b",
-              "relative_dest_file": "emcc.py"
-            }
-          ]
+          "url": "https://github.com/emscripten-core/emsdk/archive/7cba2e0a92b9df42376707dfdae6e1f108f79a27.zip",
+          "sha1": "f693e7f511d2d320d20a1376812321763027728e",
+          "root": "emsdk-7cba2e0a92b9df42376707dfdae6e1f108f79a27",
+          "path": ["fakejava", "bin", "upstream/emscripten", "python/3.7.4-pywin32_64bit"]
         }
       }
     }
