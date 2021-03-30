@@ -64,9 +64,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/nxxm/polly/archive/e47f0c7cc91b846ca878aca9a00a2f29778ea825.zip",
-          "sha1": "10fac155b69410fc9217506f7f5016162fb7faa5",
-          "root": "polly-e47f0c7cc91b846ca878aca9a00a2f29778ea825"
+          "url": "https://github.com/nxxm/polly/archive/87b706d516bee74c419a7bd6b2a6c9933aa25481.zip",
+          "sha1": "f5968d8d191ca46057e7557898869dab74bdd40d",
+          "root": "polly-87b706d516bee74c419a7bd6b2a6c9933aa25481"
         }
       }
     }
@@ -171,9 +171,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/nxxm/hunter/archive/61d77fa439a8fa63d2fedb7789fcad672b7a216b.zip",
-          "sha1": "b0bb70adaaa89a5ab45336f653a4dce3747836e1",
-          "root": "hunter-61d77fa439a8fa63d2fedb7789fcad672b7a216b/",
+          "url": "https://github.com/nxxm/hunter/archive/696b2993ba48ad885a46243995a0360c61d78453.zip",
+          "sha1": "a32e265896a99efec281f22efc9c8a12b1e0c1f8",
+          "root": "hunter-696b2993ba48ad885a46243995a0360c61d78453/",
           "target": "platform"
         }
       }
@@ -214,9 +214,9 @@
       },
       "windows": {
         "universal": {
-          "url": "https://github.com/nxxm/mingw64-clang-on-windows/archive/1add8bb57ee64e4c4313049f817e2b34ccc3974a.zip",
-          "sha1": "7b3e150c6070da525c654cfdb5af7b70fe6bace1",
-          "root": "mingw64-clang-on-windows-1add8bb57ee64e4c4313049f817e2b34ccc3974a/mingw64-clang",
+          "url": "https://nxxm.indigenious.io/distro/v0.0.12/clang/mingw64-clang-11-windows-64bit.zip",
+          "sha1": "17164ca26a7fca5833976cf8da3976ee63183e14",
+          "root": "mingw64-clang",
           "path": ["bin"]
         }
       }
