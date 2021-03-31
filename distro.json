@@ -64,9 +64,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/nxxm/polly/archive/1cf50a1c26577a8ff8f0b817b4cdfcbfcf1feda1.zip",
-          "sha1": "c8bd4b7d6aa747342ee144ae2c1be51a232f9f71",
-          "root": "polly-1cf50a1c26577a8ff8f0b817b4cdfcbfcf1feda1"
+          "url": "https://github.com/nxxm/polly/archive/9ca37fdc6e0ef73cb597654c5fe408362ee87682.zip",
+          "sha1": "565b3896e5d38c8fa837903d50b202ae34eb4c97",
+          "root": "polly-9ca37fdc6e0ef73cb597654c5fe408362ee87682"
         }
       }
     }
@@ -164,9 +164,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/nxxm/hunter/archive/61d77fa439a8fa63d2fedb7789fcad672b7a216b.zip",
-          "sha1": "b0bb70adaaa89a5ab45336f653a4dce3747836e1",
-          "root": "hunter-61d77fa439a8fa63d2fedb7789fcad672b7a216b/",
+          "url": "https://github.com/nxxm/hunter/archive/4c7470de95695522fcae5eb8b27a9695f0cc24a9.zip",
+          "sha1": "7e1c43b3b338280d27689c4e919030fe6ed38703",
+          "root": "hunter-4c7470de95695522fcae5eb8b27a9695f0cc24a9/",
           "target": "platform"
         }
       }
