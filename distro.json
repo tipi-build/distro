@@ -64,9 +64,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/nxxm/polly/archive/e47f0c7cc91b846ca878aca9a00a2f29778ea825.zip",
-          "sha1": "10fac155b69410fc9217506f7f5016162fb7faa5",
-          "root": "polly-e47f0c7cc91b846ca878aca9a00a2f29778ea825"
+          "url": "https://github.com/nxxm/polly/archive/9ca37fdc6e0ef73cb597654c5fe408362ee87682.zip",
+          "sha1": "565b3896e5d38c8fa837903d50b202ae34eb4c97",
+          "root": "polly-9ca37fdc6e0ef73cb597654c5fe408362ee87682"
         }
       }
     }
@@ -150,17 +150,10 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/emscripten-core/emsdk/archive/e10be710da27d3d4391194826a02a827bb2edacb.zip",
-          "sha1": "4cc5bdcb9125bd1e004851d689e0ee494a91dbbc",
-          "root": "emsdk-e10be710da27d3d4391194826a02a827bb2edacb",
-          "path": ["fakejava", "bin", "upstream/emscripten", "python/3.7.4-pywin32_64bit"],
-          "patches": [
-            {
-              "url": "https://raw.githubusercontent.com/nxxm/emscripten/nxxm/1.39.5-staging/emcc.py",
-              "sha1": "0ac71aa64e66548649c1bfbbaa37a4e1935a181b",
-              "relative_dest_file": "emcc.py"
-            }
-          ]
+          "url": "https://github.com/emscripten-core/emsdk/archive/7cba2e0a92b9df42376707dfdae6e1f108f79a27.zip",
+          "sha1": "f693e7f511d2d320d20a1376812321763027728e",
+          "root": "emsdk-7cba2e0a92b9df42376707dfdae6e1f108f79a27",
+          "path": ["fakejava", "bin", "upstream/emscripten", "python/3.7.4-pywin32_64bit"]
         }
       }
     }
@@ -171,9 +164,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/nxxm/hunter/archive/61d77fa439a8fa63d2fedb7789fcad672b7a216b.zip",
-          "sha1": "b0bb70adaaa89a5ab45336f653a4dce3747836e1",
-          "root": "hunter-61d77fa439a8fa63d2fedb7789fcad672b7a216b/",
+          "url": "https://github.com/nxxm/hunter/archive/4c7470de95695522fcae5eb8b27a9695f0cc24a9.zip",
+          "sha1": "7e1c43b3b338280d27689c4e919030fe6ed38703",
+          "root": "hunter-4c7470de95695522fcae5eb8b27a9695f0cc24a9/",
           "target": "platform"
         }
       }
