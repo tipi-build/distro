@@ -243,5 +243,47 @@
         }
       }
     }
+  },
+  {
+    "name": "openapi_generator",
+    "platforms": {
+      "all": {
+        "universal": {
+          "url": "http://nxxm.indigenious.io/distro/v.0.0.15/openapi_generator/openapi-generator.zip",
+          "sha1": "c93cb9c2ce019c09dc82483b07faa9ac6ae4d4ed",
+          "root": "openapi_generator",
+          "path": ["."]
+        }
+      }
+    }
+  },
+  {
+    "name": "jdk",
+    "platforms": {
+      "macos": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-macos.zip",
+          "sha1": "399c189d3145c6f3d7ab8e829bfd0d61eb30a3c5",
+          "root": "jdk-16.0.1.jdk",
+          "path": ["Contents/MacOS","Contents/Home/bin","Contents/Home/lib"]
+        }
+      },
+      "linux": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-linux.zip",
+          "sha1": "1946904e4d5ad74f3193d07d7c8a98136dbaff74",
+          "root": "jdk-16.0.1",
+          "path": ["bin","lib"]
+        }
+      },
+      "windows": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-windows.zip",
+          "sha1": "112dbf189260a647842e98671516f18e4de070f9",
+          "root": "jdk-16.0.1",
+          "path": ["bin","lib"]
+        }
+      }
+    }
   }
 ]
