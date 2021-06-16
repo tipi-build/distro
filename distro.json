@@ -250,7 +250,7 @@
       "all": {
         "universal": {
           "url": "http://nxxm.indigenious.io/distro/v.0.0.15/openapi_generator/openapi-generator.zip",
-          "sha1": "c93cb9c2ce019c09dc82483b07faa9ac6ae4d4ed",
+          "sha1": "ec7cbaed034d7aaeb2a0f22619a8927c08a74894",
           "root": "openapi_generator",
           "path": ["."]
         }
