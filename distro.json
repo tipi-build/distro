@@ -153,7 +153,7 @@
           "url": "https://github.com/emscripten-core/emsdk/archive/7cba2e0a92b9df42376707dfdae6e1f108f79a27.zip",
           "sha1": "f693e7f511d2d320d20a1376812321763027728e",
           "root": "emsdk-7cba2e0a92b9df42376707dfdae6e1f108f79a27",
-          "path": ["fakejava", "bin", "upstream/emscripten", "python/3.7.4-pywin32_64bit"]
+          "path": ["bin", "upstream/emscripten", "python/3.7.4-pywin32_64bit"]
         }
       }
     }
@@ -252,6 +252,19 @@
           "url": "http://nxxm.indigenious.io/distro/v.0.0.15/openapi_generator/openapi-generator.zip",
           "sha1": "ec7cbaed034d7aaeb2a0f22619a8927c08a74894",
           "root": "openapi_generator",
+          "path": ["."]
+        }
+      }
+    }
+  },
+  {
+    "name": "openapi_generator_script",
+    "platforms": {
+      "all": {
+        "universal": {
+          "url": "http://nxxm.indigenious.io/distro/v.0.0.15/script/script_for_openapi_generator.zip",
+          "sha1": "ec541cd10c402755efd34fa303a731cec8166d27",
+          "root": "script_for_openapi_generator",
           "path": ["."]
         }
       }
