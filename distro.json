@@ -144,7 +144,35 @@
       }
     }
   },
-
+  {
+    "name": "jdk",
+    "platforms": {
+      "macos": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-macos.zip",
+          "sha1": "399c189d3145c6f3d7ab8e829bfd0d61eb30a3c5",
+          "root": "jdk-16.0.1.jdk",
+          "path": ["Contents/MacOS","Contents/Home/bin","Contents/Home/lib"]
+        }
+      },
+      "linux": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-linux.zip",
+          "sha1": "1946904e4d5ad74f3193d07d7c8a98136dbaff74",
+          "root": "jdk-16.0.1",
+          "path": ["bin","lib"]
+        }
+      },
+      "windows": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-windows.zip",
+          "sha1": "112dbf189260a647842e98671516f18e4de070f9",
+          "root": "jdk-16.0.1",
+          "path": ["bin","lib"]
+        }
+      }
+    }
+  },
   {
     "name": "emsdk",
     "platforms": {
@@ -263,38 +291,9 @@
       "all": {
         "universal": {
           "url": "http://nxxm.indigenious.io/distro/v.0.0.15/script/script_for_openapi_generator.zip",
-          "sha1": "ec541cd10c402755efd34fa303a731cec8166d27",
+          "sha1": "fea26240ab8970fb4565e7aba8f64d44526fb9bf",
           "root": "script_for_openapi_generator",
           "path": ["."]
-        }
-      }
-    }
-  },
-  {
-    "name": "jdk",
-    "platforms": {
-      "macos": {
-        "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-macos.zip",
-          "sha1": "399c189d3145c6f3d7ab8e829bfd0d61eb30a3c5",
-          "root": "jdk-16.0.1.jdk",
-          "path": ["Contents/MacOS","Contents/Home/bin","Contents/Home/lib"]
-        }
-      },
-      "linux": {
-        "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-linux.zip",
-          "sha1": "1946904e4d5ad74f3193d07d7c8a98136dbaff74",
-          "root": "jdk-16.0.1",
-          "path": ["bin","lib"]
-        }
-      },
-      "windows": {
-        "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-windows.zip",
-          "sha1": "112dbf189260a647842e98671516f18e4de070f9",
-          "root": "jdk-16.0.1",
-          "path": ["bin","lib"]
         }
       }
     }
