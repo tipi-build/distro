@@ -291,7 +291,7 @@
       "all": {
         "universal": {
           "url": "http://nxxm.indigenious.io/distro/v.0.0.15/script/script_for_openapi_generator.zip",
-          "sha1": "4256681a2b7e80a024430f0ad4b2fb5a085b6e0f",
+          "sha1": "c33f320effeaa268d7d74c3a891356b8f28fcb31",
           "root": "script_for_openapi_generator",
           "path": ["."]
         }
