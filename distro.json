@@ -279,7 +279,7 @@
         "universal": {
           "url": "http://nxxm.indigenious.io/distro/v.0.0.15/openapi_generator/openapi-generator-5-1-1.zip",
           "sha1": "ec7cbaed034d7aaeb2a0f22619a8927c08a74894",
-          "root": "openapi-generator",
+          "root": "openapi_generator",
           "path": ["."]
         }
       }
