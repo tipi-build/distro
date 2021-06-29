@@ -273,26 +273,26 @@
     }
   },
   {
-    "name": "openapi_generator",
+    "name": "openapi-generator",
     "platforms": {
       "all": {
         "universal": {
-          "url": "http://nxxm.indigenious.io/distro/v.0.0.15/openapi_generator/openapi-generator.zip",
+          "url": "http://nxxm.indigenious.io/distro/v.0.0.15/openapi_generator/openapi-generator-5-1-1.zip",
           "sha1": "ec7cbaed034d7aaeb2a0f22619a8927c08a74894",
-          "root": "openapi_generator",
+          "root": "openapi-generator",
           "path": ["."]
         }
       }
     }
   },
   {
-    "name": "openapi_generator_script",
+    "name": "openapi-generator-script",
     "platforms": {
       "all": {
         "universal": {
-          "url": "http://nxxm.indigenious.io/distro/v.0.0.15/script/script_for_openapi_generator.zip",
-          "sha1": "2ebd824be619d307f09caa6730b17f486ae23a2b",
-          "root": "script_for_openapi_generator",
+          "url": "https://github.com/nxxm/openapi-generator-script/archive/7c3cd0c9f807a385d956aaf473168c977b59999b.zip",
+          "sha1": "ef0682c02dbe434446463a05c26e61a67bcc2497",
+          "root": "script-for-openapi-generator",
           "path": ["."]
         }
       }
