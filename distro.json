@@ -292,7 +292,7 @@
         "universal": {
           "url": "https://github.com/nxxm/openapi-generator-script/archive/7c3cd0c9f807a385d956aaf473168c977b59999b.zip",
           "sha1": "ef0682c02dbe434446463a05c26e61a67bcc2497",
-          "root": "script-for-openapi-generator",
+          "root": "",
           "path": ["."]
         }
       }
