@@ -273,7 +273,7 @@
     }
   },
   {
-    "name": "openapi-generator",
+    "name": "openapi",
     "platforms": {
       "all": {
         "universal": {
