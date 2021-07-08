@@ -290,9 +290,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/nxxm/openapi-generator-script/archive/7c3cd0c9f807a385d956aaf473168c977b59999b.zip",
-          "sha1": "ef0682c02dbe434446463a05c26e61a67bcc2497",
-          "root": "openapi-generator-script-7c3cd0c9f807a385d956aaf473168c977b59999b",
+          "url": "https://github.com/nxxm/openapi-generator-script/archive/77c837ffdd7331fb87be3e76deb53028d0d4cb66.zip",
+          "sha1": "4fc850d4a145be49a9aa0428dcbc5c5c82f19f93",
+          "root": "openapi-generator-script-77c837ffdd7331fb87be3e76deb53028d0d4cb66",
           "path": ["."]
         }
       }
