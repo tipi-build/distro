@@ -60,13 +60,13 @@
   },
 
   {
-    "name": "polly",
+    "name": "environments",
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/nxxm/polly/archive/522ff5eafbf531c5982fde0b68d80baa43408a4c.zip",
-          "sha1": "6dc07c93ca396b4335e7caf5a6b0f02eb23aafac",
-          "root": "polly-522ff5eafbf531c5982fde0b68d80baa43408a4c"
+          "url": "https://github.com/tipi-build/environments/archive/d6ea4d37494eaa9b4064d5d753b50d7a66c77bdd.zip",
+          "sha1": "3b994b2e596de5cfb72a240b404af8e5239857a1",
+          "root": "environments-d6ea4d37494eaa9b4064d5d753b50d7a66c77bdd"
         }
       }
     }
