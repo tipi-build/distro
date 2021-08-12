@@ -190,25 +190,25 @@
     "platforms": {
       "macos": {
         "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/clang/clang-11-darwin-64bit.zip",
-          "sha1": "32f9b383da2d46419b6dc48a162691c188be26d9",
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/clang/clang-12-darwin-64bit.zip",
+          "sha1": "bc504cefc97234ddace75a90b20337205fe76ad7",
           "root": "clang-macos",
           "path": ["bin"]
         }
       },
       "linux": {
         "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/clang/clang-11-linux-64bit.zip",
-          "sha1": "6c6f20874e46148ea604251f38105e68af656725",
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/clang/clang-12-linux-64bit.zip",
+          "sha1": "4d913c12c6ea26b34ad250f7860cabf4320783f2",
           "root": "clang-linux",
           "path": ["bin"]
         }
       },
       "windows": {
         "universal": {
-          "url": "https://github.com/nxxm/mingw64-clang-on-windows/archive/1add8bb57ee64e4c4313049f817e2b34ccc3974a.zip",
-          "sha1": "7b3e150c6070da525c654cfdb5af7b70fe6bace1",
-          "root": "mingw64-clang-on-windows-1add8bb57ee64e4c4313049f817e2b34ccc3974a/mingw64-clang",
+          "url": "https://github.com/nxxm/mingw64-clang-on-windows/archive/8254aab4009f6c588abd2db9e1f0a39327e33055.zip",
+          "sha1": "26e38258265a33df1fb23346a8e7cddf1d70957a",
+          "root": "mingw64-clang-on-windows-8254aab4009f6c588abd2db9e1f0a39327e33055/mingw64-clang",
           "path": ["bin"]
         }
       }
