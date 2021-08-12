@@ -206,9 +206,9 @@
       },
       "windows": {
         "universal": {
-          "url": "https://github.com/nxxm/mingw64-clang-on-windows/archive/1add8bb57ee64e4c4313049f817e2b34ccc3974a.zip",
-          "sha1": "7b3e150c6070da525c654cfdb5af7b70fe6bace1",
-          "root": "mingw64-clang-on-windows-1add8bb57ee64e4c4313049f817e2b34ccc3974a/mingw64-clang",
+          "url": "https://github.com/nxxm/mingw64-clang-on-windows/archive/8254aab4009f6c588abd2db9e1f0a39327e33055.zip",
+          "sha1": "26e38258265a33df1fb23346a8e7cddf1d70957a",
+          "root": "mingw64-clang-on-windows-8254aab4009f6c588abd2db9e1f0a39327e33055/mingw64-clang",
           "path": ["bin"]
         }
       }
