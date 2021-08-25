@@ -244,6 +244,48 @@
     }
   },
   {
+    "name": "seafile_client",
+    "platforms": {
+      "macos": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/seafile_client/tipi_seafile_client_MacOs.zip",
+          "sha1": "d20a8c574b546801f0964780e612adb69e1f84d4",
+          "root": "tipi_seafile_client",
+          "path": [".","Contents/Resources"]
+        }
+      },
+      "linux": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/seafile_client/tipi_seafile_client_linux_v2.zip",
+          "sha1": "14fc5deafa8156949e98b7ec450e8d432c953dcc",
+          "root": "tipi_seafile_client",
+          "path": [".","daemon"]
+        }
+      },
+      "windows": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/seafile_client/tipi_seafile_client_windows.zip",
+          "sha1": "01b125c46bed19ec725984b91aa8ac096ec3c7f2",
+          "root": "tipi_seafile_client",
+          "path": [".","deamon/PFiles/Seafile/bin"]
+        }
+      }
+    }
+  },
+  {
+    "name": "openssh",
+    "platforms": {
+      "windows": {
+        "universal": {
+          "url": "http://nxxm.indigenious.io/distro/v.0.0.15/openssh/OpenSSH-Win64.zip",
+          "sha1": "0a60a7d9d6ac67dfe4b97f720ad780dd185ed432",
+          "root": "OpenSSH-Win64",
+          "path": ["."]
+        }
+      }
+    }
+  },
+  {
     "name": "jdk",
     "platforms": {
       "macos": {
