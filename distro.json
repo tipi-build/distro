@@ -206,9 +206,9 @@
       },
       "windows": {
         "universal": {
-          "url": "https://github.com/nxxm/mingw64-clang-on-windows/archive/1add8bb57ee64e4c4313049f817e2b34ccc3974a.zip",
-          "sha1": "7b3e150c6070da525c654cfdb5af7b70fe6bace1",
-          "root": "mingw64-clang-on-windows-1add8bb57ee64e4c4313049f817e2b34ccc3974a/mingw64-clang",
+          "url": "https://github.com/nxxm/mingw64-clang-on-windows/archive/58ae0fafcd36748fe1dcf958cdfc8e40f5e850c7.zip",
+          "sha1": "4ee08f2e332b2080663072d5a6ce0200508a83e4",
+          "root": "mingw64-clang-on-windows-58ae0fafcd36748fe1dcf958cdfc8e40f5e850c7/mingw64-clang",
           "path": ["bin"]
         }
       }
@@ -239,6 +239,48 @@
           "sha1": "782c595c1aece9fea8bfa7a14bfbf52e206a0f91",
           "root": "go",
           "path": ["bin"]
+        }
+      }
+    }
+  },
+  {
+    "name": "seafile_client",
+    "platforms": {
+      "macos": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/seafile_client/tipi_seafile_client_MacOs.zip",
+          "sha1": "d20a8c574b546801f0964780e612adb69e1f84d4",
+          "root": "tipi_seafile_client",
+          "path": [".","Contents/Resources"]
+        }
+      },
+      "linux": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/seafile_client/tipi_seafile_client_linux_v2.zip",
+          "sha1": "14fc5deafa8156949e98b7ec450e8d432c953dcc",
+          "root": "tipi_seafile_client",
+          "path": [".","daemon"]
+        }
+      },
+      "windows": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/seafile_client/tipi_seafile_client_windows.zip",
+          "sha1": "01b125c46bed19ec725984b91aa8ac096ec3c7f2",
+          "root": "tipi_seafile_client",
+          "path": [".","deamon/PFiles/Seafile/bin"]
+        }
+      }
+    }
+  },
+  {
+    "name": "openssh",
+    "platforms": {
+      "windows": {
+        "universal": {
+          "url": "http://nxxm.indigenious.io/distro/v.0.0.15/openssh/OpenSSH-Win64.zip",
+          "sha1": "0a60a7d9d6ac67dfe4b97f720ad780dd185ed432",
+          "root": "OpenSSH-Win64",
+          "path": ["."]
         }
       }
     }
