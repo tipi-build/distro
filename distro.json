@@ -257,7 +257,7 @@
       "linux": {
         "universal": {
           "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_8.0.3_linux_amd64.zip",
-          "sha1": "845259e76c0fc1892b576c3a1fb84c1be4afa4e2",
+          "sha1": "662d8f930f2f5ac42fd04b06aaaf1bf02d5da03b",
           "root": "tipi_seafile_client",
           "path": [".","daemon"]
         }
