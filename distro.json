@@ -256,9 +256,9 @@
       },
       "linux": {
         "universal": {
-          "url": "https://nxxm.indigenious.io/distro/all/seafile_client/seafile_client_linux_v3.zip",
-          "sha1": "f5db55ec183bb7ecc7d1c2da6ad78a1adf71d76f",
-          "root": "seafile_client",
+          "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_8.0.3_linux_amd64.zip",
+          "sha1": "845259e76c0fc1892b576c3a1fb84c1be4afa4e2",
+          "root": "tipi_seafile_client",
           "path": [".","daemon"]
         }
       },
