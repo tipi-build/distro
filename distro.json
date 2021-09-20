@@ -244,7 +244,7 @@
     }
   },
   {
-    "name": "seafile_client",
+    "name": "file-sync",
     "platforms": {
       "macos": {
         "universal": {
@@ -267,7 +267,20 @@
           "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_windows.zip",
           "sha1": "01b125c46bed19ec725984b91aa8ac096ec3c7f2",
           "root": "tipi_seafile_client",
-          "path": [".","deamon/PFiles/Seafile/bin"]
+          "path": ["deamon/PFiles/Seafile/bin"]
+        }
+      }
+    }
+  },
+  {
+    "name": "file-sync-ext",
+    "platforms": {
+      "windows": {
+        "universal": {
+          "url": "https://github.com/tipi-build/seafile-cli-ext/archive/15e8ddafac278d6b1818b066914eb0c29107c1aa.zip",
+          "sha1": "9e307864412977792e8b10f38ce2ddf805b77c4c",
+          "root": "seafile-cli-ext-15e8ddafac278d6b1818b066914eb0c29107c1aa",
+          "path": ["src"]
         }
       }
     }
