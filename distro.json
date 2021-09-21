@@ -277,9 +277,9 @@
     "platforms": {
       "windows": {
         "universal": {
-          "url": "https://github.com/tipi-build/seafile-cli-ext/archive/15e8ddafac278d6b1818b066914eb0c29107c1aa.zip",
-          "sha1": "9e307864412977792e8b10f38ce2ddf805b77c4c",
-          "root": "seafile-cli-ext-15e8ddafac278d6b1818b066914eb0c29107c1aa",
+          "url": "https://github.com/tipi-build/seafile-cli-ext/archive/4ebdb1abb6dfdb6a9b494e4b64c66407659569dc.zip",
+          "sha1": "902cb30063de40be10e8186e76fc28b2cdfb489e",
+          "root": "seafile-cli-ext-4ebdb1abb6dfdb6a9b494e4b64c66407659569dc",
           "path": ["src"]
         }
       }
