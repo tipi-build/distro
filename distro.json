@@ -64,9 +64,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/tipi-build/environments/archive/d6ea4d37494eaa9b4064d5d753b50d7a66c77bdd.zip",
-          "sha1": "3b994b2e596de5cfb72a240b404af8e5239857a1",
-          "root": "environments-d6ea4d37494eaa9b4064d5d753b50d7a66c77bdd"
+          "url": "https://github.com/tipi-build/environments/archive/78b7f822bd9353d3db19f7a9920829454f346618.zip",
+          "sha1": "8813e3d00578b52d324763dd0c370da3d6187c2e",
+          "root": "environments-78b7f822bd9353d3db19f7a9920829454f346618"
         }
       }
     }
@@ -190,7 +190,7 @@
     "platforms": {
       "macos": {
         "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/clang/clang-12-darwin-64bit.zip",
+          "url": "https://nxxm.indigenious.io/distro/all/clang/clang-12-darwin-64bit.zip",
           "sha1": "bc504cefc97234ddace75a90b20337205fe76ad7",
           "root": "clang-macos",
           "path": ["bin"]
@@ -198,7 +198,7 @@
       },
       "linux": {
         "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/clang/clang-12-linux-64bit.zip",
+          "url": "https://nxxm.indigenious.io/distro/all/clang/clang-12-linux-64bit.zip",
           "sha1": "4d913c12c6ea26b34ad250f7860cabf4320783f2",
           "root": "clang-linux",
           "path": ["bin"]
@@ -244,11 +244,11 @@
     }
   },
   {
-    "name": "seafile_client",
+    "name": "file-sync",
     "platforms": {
       "macos": {
         "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/seafile_client/tipi_seafile_client_MacOs.zip",
+          "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_MacOs.zip",
           "sha1": "d20a8c574b546801f0964780e612adb69e1f84d4",
           "root": "tipi_seafile_client",
           "path": [".","Contents/Resources"]
@@ -256,18 +256,31 @@
       },
       "linux": {
         "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/seafile_client/tipi_seafile_client_linux_v2.zip",
-          "sha1": "14fc5deafa8156949e98b7ec450e8d432c953dcc",
+          "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_8.0.3_linux_amd64.zip",
+          "sha1": "662d8f930f2f5ac42fd04b06aaaf1bf02d5da03b",
           "root": "tipi_seafile_client",
           "path": [".","daemon"]
         }
       },
       "windows": {
         "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/seafile_client/tipi_seafile_client_windows.zip",
+          "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_windows.zip",
           "sha1": "01b125c46bed19ec725984b91aa8ac096ec3c7f2",
           "root": "tipi_seafile_client",
-          "path": [".","deamon/PFiles/Seafile/bin"]
+          "path": ["deamon/PFiles/Seafile/bin"]
+        }
+      }
+    }
+  },
+  {
+    "name": "file-sync-ext",
+    "platforms": {
+      "windows": {
+        "universal": {
+          "url": "https://github.com/tipi-build/seafile-cli-ext/archive/bc2f92969cd86593862a3b98dc4c8a4dbdf01f8b.zip",
+          "sha1": "2d5f0d8b12716ece815031dcbcd50f72ab95ceba",
+          "root": "seafile-cli-ext-bc2f92969cd86593862a3b98dc4c8a4dbdf01f8b",
+          "path": ["src"]
         }
       }
     }
@@ -277,7 +290,7 @@
     "platforms": {
       "windows": {
         "universal": {
-          "url": "http://nxxm.indigenious.io/distro/v.0.0.15/openssh/OpenSSH-Win64.zip",
+          "url": "http://nxxm.indigenious.io/distro/all/openssh/OpenSSH-Win64.zip",
           "sha1": "0a60a7d9d6ac67dfe4b97f720ad780dd185ed432",
           "root": "OpenSSH-Win64",
           "path": ["."]
@@ -290,7 +303,7 @@
     "platforms": {
       "macos": {
         "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-macos.zip",
+          "url": "https://nxxm.indigenious.io/distro/all/jdk-16_0_1/jdk-16.0.1-macos.zip",
           "sha1": "399c189d3145c6f3d7ab8e829bfd0d61eb30a3c5",
           "root": "jdk-16.0.1.jdk",
           "path": ["Contents/MacOS","Contents/Home/bin","Contents/Home/lib"]
@@ -298,7 +311,7 @@
       },
       "linux": {
         "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-linux.zip",
+          "url": "https://nxxm.indigenious.io/distro/all/jdk-16_0_1/jdk-16.0.1-linux.zip",
           "sha1": "1946904e4d5ad74f3193d07d7c8a98136dbaff74",
           "root": "jdk-16.0.1",
           "path": ["bin","lib"]
@@ -306,7 +319,7 @@
       },
       "windows": {
         "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-windows.zip",
+          "url": "https://nxxm.indigenious.io/distro/all/jdk-16_0_1/jdk-16.0.1-windows.zip",
           "sha1": "112dbf189260a647842e98671516f18e4de070f9",
           "root": "jdk-16.0.1",
           "path": ["bin","lib"]
@@ -319,7 +332,7 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "http://nxxm.indigenious.io/distro/v.0.0.15/openapi_generator/openapi-generator-5-1-1.zip",
+          "url": "http://nxxm.indigenious.io/distro/all/openapi_generator/openapi-generator-5-1-1.zip",
           "sha1": "ec7cbaed034d7aaeb2a0f22619a8927c08a74894",
           "root": "openapi_generator",
           "path": ["."]
