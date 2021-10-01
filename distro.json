@@ -64,9 +64,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/tipi-build/environments/archive/78b7f822bd9353d3db19f7a9920829454f346618.zip",
-          "sha1": "8813e3d00578b52d324763dd0c370da3d6187c2e",
-          "root": "environments-78b7f822bd9353d3db19f7a9920829454f346618"
+          "url": "https://github.com/tipi-build/environments/archive/26069afe9663fc582c15584f039ae1234ef4188e.zip",
+          "sha1": "a7ea20bf3763ea9122677cb30652ed0fe12405ff",
+          "root": "environments-26069afe9663fc582c15584f039ae1234ef4188e"
         }
       }
     }
@@ -256,8 +256,8 @@
       },
       "linux": {
         "universal": {
-          "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_8.0.3_linux_amd64.zip",
-          "sha1": "662d8f930f2f5ac42fd04b06aaaf1bf02d5da03b",
+          "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_8.0.3p2_linux_amd64.zip",
+          "sha1": "9b0a5c87058b68cd466a3cc8e8cfd7d9cbd89df2",
           "root": "tipi_seafile_client",
           "path": [".","daemon"]
         }
