@@ -165,7 +165,7 @@
         "universal": {
           "url": "https://github.com/nxxm/hunter/archive/ec0e32e9f150107f7f1aa26d85fd12d1ca541df7.zip",
           "sha1": "2a344bab73de81f19feca4fa3d724e1d9607d55e",
-          "root": "hunter-ec0e32e9f150107f7f1aa26d85fd12d1ca541df7/",
+          "root": "hunter-ec0e32e9f150107f7f1aa26d85fd12d1ca541df7",
           "target": "platform"
         }
       }
