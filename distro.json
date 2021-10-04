@@ -163,9 +163,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/nxxm/hunter/archive/e08375f9da06e6fd8955613381bb28a5362ee2bf.zip",
-          "sha1": "34577e376cc63460337d6beabb4316c67f67eaad",
-          "root": "hunter-e08375f9da06e6fd8955613381bb28a5362ee2bf/",
+          "url": "https://github.com/nxxm/hunter/archive/ec0e32e9f150107f7f1aa26d85fd12d1ca541df7.zip",
+          "sha1": "2a344bab73de81f19feca4fa3d724e1d9607d55e",
+          "root": "hunter-ec0e32e9f150107f7f1aa26d85fd12d1ca541df7/",
           "target": "platform"
         }
       }
