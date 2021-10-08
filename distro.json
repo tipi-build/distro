@@ -7,7 +7,7 @@
           "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-Darwin-x86_64.zip",
           "sha1": "c7aeea101063fe54911519fae5427096ed557398",
           "root": "cmake-3.18.4-Darwin-x86_64/CMake.app/Contents",
-          "module_path": "cmake/share/cmake-3.17/Modules",
+          "module_path": "cmake/share/cmake-3.18/Modules",
           "path": ["bin"]
         }
       },
@@ -16,7 +16,7 @@
           "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-Linux-x86_64.zip",
           "sha1": "7e4b5225c96db5a135c034b4220925c87b4f9a5f",
           "root": "cmake-3.18.4-Linux-x86_64",
-          "module_path": "cmake/share/cmake-3.17/Modules",
+          "module_path": "cmake/share/cmake-3.18/Modules",
           "path": ["bin"]
         }
       },
@@ -25,7 +25,7 @@
           "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-win64-x64.zip",
           "sha1": "51e611bb39f8f4c49a160085048e0dd24ec22812",
           "root": "cmake-3.18.4-win64-x64",
-          "module_path": "cmake/share/cmake-3.17/Modules",
+          "module_path": "cmake/share/cmake-3.18/Modules",
           "path": ["bin"]
         }
       }
@@ -64,9 +64,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/tipi-build/environments/archive/26069afe9663fc582c15584f039ae1234ef4188e.zip",
-          "sha1": "a7ea20bf3763ea9122677cb30652ed0fe12405ff",
-          "root": "environments-26069afe9663fc582c15584f039ae1234ef4188e"
+          "url": "https://github.com/tipi-build/environments/archive/902b69a0dde34b128a7ebed42c9f2c668d7b1b39.zip",
+          "sha1": "a766bd70a46e4ac3321f4f59faa20a9734dd2775",
+          "root": "environments-902b69a0dde34b128a7ebed42c9f2c668d7b1b39"
         }
       }
     }
@@ -163,9 +163,9 @@
     "platforms": {
       "all": {
         "universal": {
-          "url": "https://github.com/nxxm/hunter/archive/e08375f9da06e6fd8955613381bb28a5362ee2bf.zip",
-          "sha1": "34577e376cc63460337d6beabb4316c67f67eaad",
-          "root": "hunter-e08375f9da06e6fd8955613381bb28a5362ee2bf/",
+          "url": "https://github.com/nxxm/hunter/archive/ec0e32e9f150107f7f1aa26d85fd12d1ca541df7.zip",
+          "sha1": "2a344bab73de81f19feca4fa3d724e1d9607d55e",
+          "root": "hunter-ec0e32e9f150107f7f1aa26d85fd12d1ca541df7",
           "target": "platform"
         }
       }
