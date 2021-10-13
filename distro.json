@@ -1,6 +1,6 @@
 {
   "flavours" : { 
-    "remote_only_mode" : ["file-sync", "ssh","file-sync-ext"],
+    "default" : ["file-sync", "ssh","file-sync-ext"],
     "all" : ["cmake","make","environments","perl","python","nodejs","emsdk","hunter","hunter_gate","clang","go","file-sync","file-sync-ext","openssh","jdk","openapi","openapi-generator-script"]
   }
 
