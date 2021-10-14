@@ -13,7 +13,7 @@
             "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-Darwin-x86_64.zip",
             "sha1": "c7aeea101063fe54911519fae5427096ed557398",
             "root": "cmake-3.18.4-Darwin-x86_64/CMake.app/Contents",
-            "module_path": "cmake/share/cmake-3.18/Modules",
+            "module_path": "share/cmake-3.18/Modules",
             "path": ["bin"]
           }
         },
