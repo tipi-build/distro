@@ -1,356 +1,362 @@
-[
-  {
-    "name": "cmake",
-    "platforms": {
-      "macos": {
-        "x86_64": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-Darwin-x86_64.zip",
-          "sha1": "c7aeea101063fe54911519fae5427096ed557398",
-          "root": "cmake-3.18.4-Darwin-x86_64/CMake.app/Contents",
-          "module_path": "cmake/share/cmake-3.18/Modules",
-          "path": ["bin"]
-        }
-      },
-      "linux": {
-        "x86_64": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-Linux-x86_64.zip",
-          "sha1": "7e4b5225c96db5a135c034b4220925c87b4f9a5f",
-          "root": "cmake-3.18.4-Linux-x86_64",
-          "module_path": "cmake/share/cmake-3.18/Modules",
-          "path": ["bin"]
-        }
-      },
-      "windows": {
-        "x86_64": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-win64-x64.zip",
-          "sha1": "51e611bb39f8f4c49a160085048e0dd24ec22812",
-          "root": "cmake-3.18.4-win64-x64",
-          "module_path": "cmake/share/cmake-3.18/Modules",
-          "path": ["bin"]
-        }
-      }
-    }
-  },
-  {
-    "name": "make",
-    "platforms": {
-      "windows": {
-        "x86_64": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/make/mingw32-make.zip",
-          "sha1": "808948b4cbf6c3f1812cb5922e926fe8479e7be3",
-          "root": "mingw32-make",
-          "path": ["."]
-        }
-      },
-      "linux": {
-        "universal": {
-          "url": "",
-          "sha1": "",
-          "root": ""
-        }
-      },
-      "macos": {
-        "universal": {
-          "url": "",
-          "sha1": "",
-          "root": ""
-        }
-      }
-    }
-  },
-
-  {
-    "name": "environments",
-    "platforms": {
-      "all": {
-        "universal": {
-          "url": "https://github.com/tipi-build/environments/archive/5a7a146f2b70f7cc17ed6e2ef0bfa022bbdc2f76.zip",
-          "sha1": "570df2cdb836a0c4aa9dfc6d2bcdf316195459c1",
-          "root": "environments-5a7a146f2b70f7cc17ed6e2ef0bfa022bbdc2f76"
-        }
-      }
-    }
-  },
-
-  {
-    "name": "perl",
-    "platforms": {
-      "windows": {
-        "x86_64": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/perl/strawberry-perl-5.30.3.1-windows-64bit.zip",
-          "sha1": "ac3ce102081ac6f9b3b43d81c30ac77b08493eff",
-          "root": "",
-          "path": ["perl/bin"]
-        }
-      }
-    }
-  },
-
-  {
-    "name": "python",
-    "platforms": {
-      "macos": {
-        "x86_64": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/python/python-3.8.0-Darwin-x64.zip",
-          "sha1": "54b633011cd24867662c9dbaeda596bb3261a09c",
-          "root": "",
-          "path": [".", "bin"]
-        }
-      },
-      "linux": {
-        "universal": {
-          "url": "",
-          "sha1": "",
-          "root": ""
-        }
-      },
-      "windows": {
-        "x86_64": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/python/python-3.7.0-embed-amd64.zip",
-          "sha1": "30314b4574f1f162767a6a66a64410b9a9e2829d",
-          "root": "",
-          "path": [".", "bin"]
-        }
-      }
-    }
-  },
-
-  {
-    "name": "nodejs",
-    "platforms": {
-      "macos": {
-        "x86_64": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/nodejs/node-v14.7.0-darwin-x64.zip",
-          "sha1": "71c4c7ceddafd46143832abc136c592192c70713",
-          "root": "node-v14.7.0-darwin-x64",
-          "path": [".", "bin"]
-        }
-      },
-      "linux": {
-        "x86_64": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/nodejs/node-v14.7.0-linux-x64.zip",
-          "sha1": "4472af28a2bd943fe64f4dfb9d44c5ebde152ec0",
-          "root": "node-v14.7.0-linux-x64",
-          "path": [".", "bin"]
-        }
-      },
-      "windows": {
-        "x86_64": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/nodejs/node-v14.7.0-win-x64.zip",
-          "sha1": "ec44ef72df91ffc4b02df49e75c46b8f845fab5e",
-          "root": "node-v14.7.0-win-x64",
-          "path": [".", "bin"]
-        }
-      }
-    }
-  },
-  {
-    "name": "emsdk",
-    "platforms": {
-      "all": {
-        "universal": {
-          "url": "https://github.com/emscripten-core/emsdk/archive/7cba2e0a92b9df42376707dfdae6e1f108f79a27.zip",
-          "sha1": "f693e7f511d2d320d20a1376812321763027728e",
-          "root": "emsdk-7cba2e0a92b9df42376707dfdae6e1f108f79a27",
-          "path": ["bin", "upstream/emscripten", "python/3.7.4-pywin32_64bit"]
-        }
-      }
-    }
-  },
-
-  {
-    "name": "hunter",
-    "platforms": {
-      "all": {
-        "universal": {
-          "url": "https://github.com/nxxm/hunter/archive/ec0e32e9f150107f7f1aa26d85fd12d1ca541df7.zip",
-          "sha1": "2a344bab73de81f19feca4fa3d724e1d9607d55e",
-          "root": "hunter-ec0e32e9f150107f7f1aa26d85fd12d1ca541df7",
-          "target": "platform"
-        }
-      }
-    }
-  },
-
-  {
-    "name": "hunter_gate",
-    "platforms": {
-      "all": {
-        "universal": {
-          "url": "https://github.com/hunter-packages/gate/archive/42c1c27cdd556dcbc358c6ba8ad7a72a68ee2a62.zip",
-          "sha1": "a72c0958bdfdb4666ee077cdd40c22875a082915",
-          "root": "gate-42c1c27cdd556dcbc358c6ba8ad7a72a68ee2a62/cmake/HunterGate.cmake",
-          "relative_dest_file": "HunterGate.cmake"
-        }
-      }
-    }
-  },
-  {
-    "name": "clang",
-    "platforms": {
-      "macos": {
-        "universal": {
-          "url": "https://nxxm.indigenious.io/distro/all/clang/clang-12-darwin-64bit.zip",
-          "sha1": "bc504cefc97234ddace75a90b20337205fe76ad7",
-          "root": "clang-macos",
-          "path": ["bin"]
-        }
-      },
-      "linux": {
-        "universal": {
-          "url": "https://nxxm.indigenious.io/distro/all/clang/clang-12-linux-64bit.zip",
-          "sha1": "4d913c12c6ea26b34ad250f7860cabf4320783f2",
-          "root": "clang-linux",
-          "path": ["bin"]
-        }
-      },
-      "windows": {
-        "universal": {
-          "url": "https://github.com/nxxm/mingw64-clang-on-windows/archive/58ae0fafcd36748fe1dcf958cdfc8e40f5e850c7.zip",
-          "sha1": "4ee08f2e332b2080663072d5a6ce0200508a83e4",
-          "root": "mingw64-clang-on-windows-58ae0fafcd36748fe1dcf958cdfc8e40f5e850c7/mingw64-clang",
-          "path": ["bin"]
-        }
-      }
-    }
-  },
-  {
-    "name": "go",
-    "platforms": {
-      "macos": {
-        "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/go/go_1.14.14_darwin_64bit.zip",
-          "sha1": "1e2561d8307eb513a23eb7c9a8b769b800db27af",
-          "root": "go",
-          "path": ["bin"]
-        }
-      },
-      "linux": {
-        "universal": {
-          "url": "https://nxxm.indigenious.io/distro/v0.0.12/go/go_1.14.14_linux_64bit.zip",
-          "sha1": "9fc8f520528b3f353b1feeb1279f241d2a5c3677",
-          "root": "go",
-          "path": ["bin"]
-        }
-      },
-      "windows": {
-        "universal": {
-          "url": "http://nxxm.indigenious.io/distro/v0.0.12/go/go_1.14.14_windows_x86_64.zip",
-          "sha1": "782c595c1aece9fea8bfa7a14bfbf52e206a0f91",
-          "root": "go",
-          "path": ["bin"]
-        }
-      }
-    }
-  },
-  {
-    "name": "file-sync",
-    "platforms": {
-      "macos": {
-        "universal": {
-          "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_MacOs.zip",
-          "sha1": "d20a8c574b546801f0964780e612adb69e1f84d4",
-          "root": "tipi_seafile_client",
-          "path": [".","Contents/Resources"]
-        }
-      },
-      "linux": {
-        "universal": {
-          "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_8.0.3p2_linux_amd64.zip",
-          "sha1": "9b0a5c87058b68cd466a3cc8e8cfd7d9cbd89df2",
-          "root": "tipi_seafile_client",
-          "path": [".","daemon"]
-        }
-      },
-      "windows": {
-        "universal": {
-          "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_windows.zip",
-          "sha1": "01b125c46bed19ec725984b91aa8ac096ec3c7f2",
-          "root": "tipi_seafile_client",
-          "path": ["deamon/PFiles/Seafile/bin"]
-        }
-      }
-    }
-  },
-  {
-    "name": "file-sync-ext",
-    "platforms": {
-      "windows": {
-        "universal": {
-          "url": "https://github.com/tipi-build/seafile-cli-ext/archive/bc2f92969cd86593862a3b98dc4c8a4dbdf01f8b.zip",
-          "sha1": "2d5f0d8b12716ece815031dcbcd50f72ab95ceba",
-          "root": "seafile-cli-ext-bc2f92969cd86593862a3b98dc4c8a4dbdf01f8b",
-          "path": ["src"]
-        }
-      }
-    }
-  },
-  {
-    "name": "openssh",
-    "platforms": {
-      "windows": {
-        "universal": {
-          "url": "http://nxxm.indigenious.io/distro/all/openssh/OpenSSH-Win64.zip",
-          "sha1": "0a60a7d9d6ac67dfe4b97f720ad780dd185ed432",
-          "root": "OpenSSH-Win64",
-          "path": ["."]
-        }
-      }
-    }
-  },
-  {
-    "name": "jdk",
-    "platforms": {
-      "macos": {
-        "universal": {
-          "url": "https://nxxm.indigenious.io/distro/all/jdk-16_0_1/jdk-16.0.1-macos.zip",
-          "sha1": "399c189d3145c6f3d7ab8e829bfd0d61eb30a3c5",
-          "root": "jdk-16.0.1.jdk",
-          "path": ["Contents/MacOS","Contents/Home/bin","Contents/Home/lib"]
-        }
-      },
-      "linux": {
-        "universal": {
-          "url": "https://nxxm.indigenious.io/distro/all/jdk-16_0_1/jdk-16.0.1-linux.zip",
-          "sha1": "1946904e4d5ad74f3193d07d7c8a98136dbaff74",
-          "root": "jdk-16.0.1",
-          "path": ["bin","lib"]
-        }
-      },
-      "windows": {
-        "universal": {
-          "url": "https://nxxm.indigenious.io/distro/all/jdk-16_0_1/jdk-16.0.1-windows.zip",
-          "sha1": "112dbf189260a647842e98671516f18e4de070f9",
-          "root": "jdk-16.0.1",
-          "path": ["bin","lib"]
-        }
-      }
-    }
-  },
-  {
-    "name": "openapi",
-    "platforms": {
-      "all": {
-        "universal": {
-          "url": "http://nxxm.indigenious.io/distro/all/openapi_generator/openapi-generator-5-1-1.zip",
-          "sha1": "ec7cbaed034d7aaeb2a0f22619a8927c08a74894",
-          "root": "openapi_generator",
-          "path": ["."]
-        }
-      }
-    }
-  },
-  {
-    "name": "openapi-generator-script",
-    "platforms": {
-      "all": {
-        "universal": {
-          "url": "https://github.com/nxxm/openapi-generator-script/archive/77c837ffdd7331fb87be3e76deb53028d0d4cb66.zip",
-          "sha1": "4fc850d4a145be49a9aa0428dcbc5c5c82f19f93",
-          "root": "openapi-generator-script-77c837ffdd7331fb87be3e76deb53028d0d4cb66",
-          "path": ["."]
-        }
-      }
-    }
+{
+  "modes" : { 
+    "default" : ["file-sync", "ssh","file-sync-ext","environments"]
   }
-]
+
+  ,"distro": [
+    {
+      "name": "cmake",
+      "platforms": {
+        "macos": {
+          "x86_64": {
+            "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-Darwin-x86_64.zip",
+            "sha1": "c7aeea101063fe54911519fae5427096ed557398",
+            "root": "cmake-3.18.4-Darwin-x86_64/CMake.app/Contents",
+            "module_path": "share/cmake-3.18/Modules",
+            "path": ["bin"]
+          }
+        },
+        "linux": {
+          "x86_64": {
+            "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-Linux-x86_64.zip",
+            "sha1": "7e4b5225c96db5a135c034b4220925c87b4f9a5f",
+            "root": "cmake-3.18.4-Linux-x86_64",
+            "module_path": "share/cmake-3.18/Modules",
+            "path": ["bin"]
+          }
+        },
+        "windows": {
+          "x86_64": {
+            "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-win64-x64.zip",
+            "sha1": "51e611bb39f8f4c49a160085048e0dd24ec22812",
+            "root": "cmake-3.18.4-win64-x64",
+            "module_path": "share/cmake-3.18/Modules",
+            "path": ["bin"]
+          }
+        }
+      }
+    },
+    {
+      "name": "make",
+      "platforms": {
+        "windows": {
+          "x86_64": {
+            "url": "https://nxxm.indigenious.io/distro/v0.0.12/make/mingw32-make.zip",
+            "sha1": "808948b4cbf6c3f1812cb5922e926fe8479e7be3",
+            "root": "mingw32-make",
+            "path": ["."]
+          }
+        },
+        "linux": {
+          "universal": {
+            "url": "",
+            "sha1": "",
+            "root": ""
+          }
+        },
+        "macos": {
+          "universal": {
+            "url": "",
+            "sha1": "",
+            "root": ""
+          }
+        }
+      }
+    },
+  
+    {
+      "name": "environments",
+      "platforms": {
+        "all": {
+          "universal": {
+            "url": "https://github.com/tipi-build/environments/archive/23f0b5e0b53ae94da519611628f1872510a0886f.zip",
+            "sha1": "690be18d90ea5d264c93cea5a372dcaab64fd33d",
+            "root": "environments-23f0b5e0b53ae94da519611628f1872510a0886f"
+          }
+        }
+      }
+    },
+  
+    {
+      "name": "perl",
+      "platforms": {
+        "windows": {
+          "x86_64": {
+            "url": "https://nxxm.indigenious.io/distro/v0.0.12/perl/strawberry-perl-5.30.3.1-windows-64bit.zip",
+            "sha1": "ac3ce102081ac6f9b3b43d81c30ac77b08493eff",
+            "root": "",
+            "path": ["perl/bin"]
+          }
+        }
+      }
+    },
+  
+    {
+      "name": "python",
+      "platforms": {
+        "macos": {
+          "x86_64": {
+            "url": "https://nxxm.indigenious.io/distro/v0.0.12/python/python-3.8.0-Darwin-x64.zip",
+            "sha1": "54b633011cd24867662c9dbaeda596bb3261a09c",
+            "root": "",
+            "path": [".", "bin"]
+          }
+        },
+        "linux": {
+          "universal": {
+            "url": "",
+            "sha1": "",
+            "root": ""
+          }
+        },
+        "windows": {
+          "x86_64": {
+            "url": "https://nxxm.indigenious.io/distro/v0.0.12/python/python-3.7.0-embed-amd64.zip",
+            "sha1": "30314b4574f1f162767a6a66a64410b9a9e2829d",
+            "root": "",
+            "path": [".", "bin"]
+          }
+        }
+      }
+    },
+  
+    {
+      "name": "nodejs",
+      "platforms": {
+        "macos": {
+          "x86_64": {
+            "url": "https://nxxm.indigenious.io/distro/v0.0.12/nodejs/node-v14.7.0-darwin-x64.zip",
+            "sha1": "71c4c7ceddafd46143832abc136c592192c70713",
+            "root": "node-v14.7.0-darwin-x64",
+            "path": [".", "bin"]
+          }
+        },
+        "linux": {
+          "x86_64": {
+            "url": "https://nxxm.indigenious.io/distro/v0.0.12/nodejs/node-v14.7.0-linux-x64.zip",
+            "sha1": "4472af28a2bd943fe64f4dfb9d44c5ebde152ec0",
+            "root": "node-v14.7.0-linux-x64",
+            "path": [".", "bin"]
+          }
+        },
+        "windows": {
+          "x86_64": {
+            "url": "https://nxxm.indigenious.io/distro/v0.0.12/nodejs/node-v14.7.0-win-x64.zip",
+            "sha1": "ec44ef72df91ffc4b02df49e75c46b8f845fab5e",
+            "root": "node-v14.7.0-win-x64",
+            "path": [".", "bin"]
+          }
+        }
+      }
+    },
+    {
+      "name": "emsdk",
+      "platforms": {
+        "all": {
+          "universal": {
+            "url": "https://github.com/emscripten-core/emsdk/archive/7cba2e0a92b9df42376707dfdae6e1f108f79a27.zip",
+            "sha1": "f693e7f511d2d320d20a1376812321763027728e",
+            "root": "emsdk-7cba2e0a92b9df42376707dfdae6e1f108f79a27",
+            "path": ["bin", "upstream/emscripten", "python/3.7.4-pywin32_64bit"]
+          }
+        }
+      }
+    },
+  
+    {
+      "name": "hunter",
+      "platforms": {
+        "all": {
+          "universal": {
+            "url": "https://github.com/nxxm/hunter/archive/ec0e32e9f150107f7f1aa26d85fd12d1ca541df7.zip",
+            "sha1": "2a344bab73de81f19feca4fa3d724e1d9607d55e",
+            "root": "hunter-ec0e32e9f150107f7f1aa26d85fd12d1ca541df7",
+            "target": "platform"
+          }
+        }
+      }
+    },
+  
+    {
+      "name": "hunter_gate",
+      "platforms": {
+        "all": {
+          "universal": {
+            "url": "https://github.com/hunter-packages/gate/archive/42c1c27cdd556dcbc358c6ba8ad7a72a68ee2a62.zip",
+            "sha1": "a72c0958bdfdb4666ee077cdd40c22875a082915",
+            "root": "gate-42c1c27cdd556dcbc358c6ba8ad7a72a68ee2a62/cmake/HunterGate.cmake",
+            "relative_dest_file": "HunterGate.cmake"
+          }
+        }
+      }
+    },
+    {
+      "name": "clang",
+      "platforms": {
+        "macos": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/all/clang/clang-12-darwin-64bit.zip",
+            "sha1": "bc504cefc97234ddace75a90b20337205fe76ad7",
+            "root": "clang-macos",
+            "path": ["bin"]
+          }
+        },
+        "linux": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/all/clang/clang-12-linux-64bit.zip",
+            "sha1": "4d913c12c6ea26b34ad250f7860cabf4320783f2",
+            "root": "clang-linux",
+            "path": ["bin"]
+          }
+        },
+        "windows": {
+          "universal": {
+            "url": "https://github.com/nxxm/mingw64-clang-on-windows/archive/58ae0fafcd36748fe1dcf958cdfc8e40f5e850c7.zip",
+            "sha1": "4ee08f2e332b2080663072d5a6ce0200508a83e4",
+            "root": "mingw64-clang-on-windows-58ae0fafcd36748fe1dcf958cdfc8e40f5e850c7/mingw64-clang",
+            "path": ["bin"]
+          }
+        }
+      }
+    },
+    {
+      "name": "go",
+      "platforms": {
+        "macos": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/v0.0.12/go/go_1.14.14_darwin_64bit.zip",
+            "sha1": "1e2561d8307eb513a23eb7c9a8b769b800db27af",
+            "root": "go",
+            "path": ["bin"]
+          }
+        },
+        "linux": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/v0.0.12/go/go_1.14.14_linux_64bit.zip",
+            "sha1": "9fc8f520528b3f353b1feeb1279f241d2a5c3677",
+            "root": "go",
+            "path": ["bin"]
+          }
+        },
+        "windows": {
+          "universal": {
+            "url": "http://nxxm.indigenious.io/distro/v0.0.12/go/go_1.14.14_windows_x86_64.zip",
+            "sha1": "782c595c1aece9fea8bfa7a14bfbf52e206a0f91",
+            "root": "go",
+            "path": ["bin"]
+          }
+        }
+      }
+    },
+    {
+      "name": "file-sync",
+      "platforms": {
+        "macos": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_MacOs.zip",
+            "sha1": "d20a8c574b546801f0964780e612adb69e1f84d4",
+            "root": "tipi_seafile_client",
+            "path": [".","Contents/Resources"]
+          }
+        },
+        "linux": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_8.0.3p2_linux_amd64.zip",
+            "sha1": "9b0a5c87058b68cd466a3cc8e8cfd7d9cbd89df2",
+            "root": "tipi_seafile_client",
+            "path": [".","daemon"]
+          }
+        },
+        "windows": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_windows.zip",
+            "sha1": "01b125c46bed19ec725984b91aa8ac096ec3c7f2",
+            "root": "tipi_seafile_client",
+            "path": ["deamon/PFiles/Seafile/bin"]
+          }
+        }
+      }
+    },
+    {
+      "name": "file-sync-ext",
+      "platforms": {
+        "windows": {
+          "universal": {
+            "url": "https://github.com/tipi-build/seafile-cli-ext/archive/bc2f92969cd86593862a3b98dc4c8a4dbdf01f8b.zip",
+            "sha1": "2d5f0d8b12716ece815031dcbcd50f72ab95ceba",
+            "root": "seafile-cli-ext-bc2f92969cd86593862a3b98dc4c8a4dbdf01f8b",
+            "path": ["src"]
+          }
+        }
+      }
+    },
+    {
+      "name": "openssh",
+      "platforms": {
+        "windows": {
+          "universal": {
+            "url": "http://nxxm.indigenious.io/distro/all/openssh/OpenSSH-Win64.zip",
+            "sha1": "0a60a7d9d6ac67dfe4b97f720ad780dd185ed432",
+            "root": "OpenSSH-Win64",
+            "path": ["."]
+          }
+        }
+      }
+    },
+    {
+      "name": "jdk",
+      "platforms": {
+        "macos": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/all/jdk-16_0_1/jdk-16.0.1-macos.zip",
+            "sha1": "399c189d3145c6f3d7ab8e829bfd0d61eb30a3c5",
+            "root": "jdk-16.0.1.jdk",
+            "path": ["Contents/MacOS","Contents/Home/bin","Contents/Home/lib"]
+          }
+        },
+        "linux": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/all/jdk-16_0_1/jdk-16.0.1-linux.zip",
+            "sha1": "1946904e4d5ad74f3193d07d7c8a98136dbaff74",
+            "root": "jdk-16.0.1",
+            "path": ["bin","lib"]
+          }
+        },
+        "windows": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/all/jdk-16_0_1/jdk-16.0.1-windows.zip",
+            "sha1": "112dbf189260a647842e98671516f18e4de070f9",
+            "root": "jdk-16.0.1",
+            "path": ["bin","lib"]
+          }
+        }
+      }
+    },
+    {
+      "name": "openapi",
+      "platforms": {
+        "all": {
+          "universal": {
+            "url": "http://nxxm.indigenious.io/distro/all/openapi_generator/openapi-generator-5-1-1.zip",
+            "sha1": "ec7cbaed034d7aaeb2a0f22619a8927c08a74894",
+            "root": "openapi_generator",
+            "path": ["."]
+          }
+        }
+      }
+    },
+    {
+      "name": "openapi-generator-script",
+      "platforms": {
+        "all": {
+          "universal": {
+            "url": "https://github.com/nxxm/openapi-generator-script/archive/77c837ffdd7331fb87be3e76deb53028d0d4cb66.zip",
+            "sha1": "4fc850d4a145be49a9aa0428dcbc5c5c82f19f93",
+            "root": "openapi-generator-script-77c837ffdd7331fb87be3e76deb53028d0d4cb66",
+            "path": ["."]
+          }
+        }
+      }
+    }
+  ]
+}
