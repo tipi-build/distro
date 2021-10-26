@@ -1,6 +1,6 @@
 {
   "modes" : { 
-    "default" : ["file-sync", "ssh","file-sync-ext","environments"]
+    "default" : ["python","file-sync", "openssh","file-sync-ext","environments"]
   }
 
   ,"distro": [
