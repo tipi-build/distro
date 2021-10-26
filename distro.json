@@ -111,8 +111,8 @@
         },
         "windows": {
           "x86_64": {
-            "url": "https://nxxm.indigenious.io/distro/v0.0.12/python/python-3.7.0-embed-amd64.zip",
-            "sha1": "30314b4574f1f162767a6a66a64410b9a9e2829d",
+            "url": "https://nxxm.indigenious.io/distro/all/python/python-3.10.0-embed-amd64.zip",
+            "sha1": "102aecce2eb200ace0167a86d16b0da63f362be4",
             "root": "",
             "path": [".", "bin"]
           }
