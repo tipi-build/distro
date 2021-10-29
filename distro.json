@@ -69,9 +69,9 @@
       "platforms": {
         "all": {
           "universal": {
-            "url": "https://github.com/tipi-build/environments/archive/0ee1767a31cbc24374b36320541716a4a79634f3.zip",
-            "sha1": "44b13c1cfc33f19bd9ff5a7851554ed3111df260",
-            "root": "environments-0ee1767a31cbc24374b36320541716a4a79634f3"
+            "url": "https://github.com/tipi-build/environments/archive/2b260a2f753e81634b657769bb3288464e3ad28d.zip",
+            "sha1": "d6b58df881d412fd77c042feec2ace879a6f3e6e",
+            "root": "environments-2b260a2f753e81634b657769bb3288464e3ad28d"
           }
         }
       }
@@ -195,25 +195,25 @@
       "platforms": {
         "macos": {
           "universal": {
-            "url": "https://nxxm.indigenious.io/distro/all/clang/clang-12-darwin-64bit.zip",
-            "sha1": "bc504cefc97234ddace75a90b20337205fe76ad7",
+            "url": "https://nxxm.indigenious.io/distro/all/clang/v13.0.0/clang-13-darwin-64bit.zip",
+            "sha1": "a7e6968a4de8a8528349ec3291156f2b15e8767f",
             "root": "clang-macos",
             "path": ["bin"]
           }
         },
         "linux": {
           "universal": {
-            "url": "https://nxxm.indigenious.io/distro/all/clang/clang-12-linux-64bit.zip",
-            "sha1": "4d913c12c6ea26b34ad250f7860cabf4320783f2",
+            "url": "https://nxxm.indigenious.io/distro/all/clang/v13.0.0/clang-13-linux-64bit.zip",
+            "sha1": "8142227babbf16c835fa8a930d4fcfefc336d4ba",
             "root": "clang-linux",
             "path": ["bin"]
           }
         },
         "windows": {
           "universal": {
-            "url": "https://github.com/nxxm/mingw64-clang-on-windows/archive/58ae0fafcd36748fe1dcf958cdfc8e40f5e850c7.zip",
-            "sha1": "4ee08f2e332b2080663072d5a6ce0200508a83e4",
-            "root": "mingw64-clang-on-windows-58ae0fafcd36748fe1dcf958cdfc8e40f5e850c7/mingw64-clang",
+            "url": "https://nxxm.indigenious.io/distro/all/clang/v13.0.0/clang-13-windows-64bit.zip",
+            "sha1": "6f9b4e0b86ae48a818fe95073acc5be05839a5e4",
+            "root": "mingw64-clang",
             "path": ["bin"]
           }
         }
