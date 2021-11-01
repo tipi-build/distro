@@ -9,28 +9,28 @@
       "platforms": {
         "macos": {
           "x86_64": {
-            "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-Darwin-x86_64.zip",
-            "sha1": "c7aeea101063fe54911519fae5427096ed557398",
-            "root": "cmake-3.18.4-Darwin-x86_64/CMake.app/Contents",
-            "module_path": "share/cmake-3.18/Modules",
+            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.21.4/cmake-3.21.4-Darwin-x86_64.zip",
+            "sha1": "1b1b5c6b0db43541f3fa9beaf0885ad52eb63f4f",
+            "root": "cmake-3.21.4-Darwin-x86_64/CMake.app/Contents",
+            "module_path": "share/cmake-3.21/Modules",
             "path": ["bin"]
-          }
+          } 
         },
         "linux": {
           "x86_64": {
-            "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-Linux-x86_64.zip",
-            "sha1": "7e4b5225c96db5a135c034b4220925c87b4f9a5f",
-            "root": "cmake-3.18.4-Linux-x86_64",
-            "module_path": "share/cmake-3.18/Modules",
+            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.21.4/cmake-3.21.4-linux-x86_64.zip",
+            "sha1": "aa668b36aa3e70409a2295e448217f95056f082e",
+            "root": "cmake-3.21.4-Linux-x86_64",
+            "module_path": "share/cmake-3.21/Modules",
             "path": ["bin"]
           }
         },
         "windows": {
           "x86_64": {
-            "url": "https://nxxm.indigenious.io/distro/v0.0.12/cmake/cmake-3.18.4-win64-x64.zip",
-            "sha1": "51e611bb39f8f4c49a160085048e0dd24ec22812",
-            "root": "cmake-3.18.4-win64-x64",
-            "module_path": "share/cmake-3.18/Modules",
+            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.21.4/cmake-3.21.4-win64-x64.zip",
+            "sha1": "78da891a6080655bb93b97d9b1c09d6fa8f5b264",
+            "root": "cmake-3.21.4-win64-x64",
+            "module_path": "share/cmake-3.21/Modules",
             "path": ["bin"]
           }
         }
