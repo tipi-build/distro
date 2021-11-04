@@ -363,25 +363,25 @@
       "platforms": {
         "macos": {
           "universal": {
-            "url": "",
-            "sha1": "",
-            "root": "",
+            "url": "https://github.com/tipi-build/ssh-over-http-proxy/releases/download/v1.0.0/ssh-over-http-proxy-macos.zip",
+            "sha1": "bed47ab90b0d4a539af43918a6e4061b31e1da8e",
+            "root": "ssh-over-http-proxy-macos",
             "path": ["."]
           }
         },
         "linux": {
           "universal": {
-            "url": "",
-            "sha1": "",
-            "root": "",
+            "url": "https://github.com/tipi-build/ssh-over-http-proxy/releases/download/v1.0.0/ssh-over-http-proxy-linux.zip",
+            "sha1": "fa9e251a9ca55c0d56ec6fe1f377267b4c1ac6af",
+            "root": "ssh-over-http-proxy-linux",
             "path": ["."]
           }
         },
         "windows": {
           "universal": {
-            "url": "",
-            "sha1": "",
-            "root": "",
+            "url": "https://github.com/tipi-build/ssh-over-http-proxy/releases/download/v1.0.0/ssh-over-http-proxy-win.zip",
+            "sha1": "b1f642db4ba0155868450c2ca69508eca1c07aba",
+            "root": "ssh-over-http-proxy-win",
             "path": ["."]
           }
         }
