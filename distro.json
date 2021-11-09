@@ -1,6 +1,6 @@
 {
   "modes" : { 
-    "default" : ["python","file-sync", "openssh","file-sync-ext","environments"]
+    "default" : ["python","file-sync", "openssh","file-sync-ext","environments","ssh-over-http-proxy"]
   }
 
   ,"distro": [
@@ -168,9 +168,9 @@
       "platforms": {
         "all": {
           "universal": {
-            "url": "https://github.com/nxxm/hunter/archive/ec0e32e9f150107f7f1aa26d85fd12d1ca541df7.zip",
-            "sha1": "2a344bab73de81f19feca4fa3d724e1d9607d55e",
-            "root": "hunter-ec0e32e9f150107f7f1aa26d85fd12d1ca541df7",
+            "url": "https://github.com/nxxm/hunter/archive/6efe3552dd0c1a547e8a18067003be7222d0cb24.zip",
+            "sha1": "6b9afd6a4d5cd916ea1d1dfd3adea3590bace56d",
+            "root": "hunter-6efe3552dd0c1a547e8a18067003be7222d0cb24",
             "target": "platform"
           }
         }
@@ -353,6 +353,35 @@
             "url": "https://github.com/nxxm/openapi-generator-script/archive/77c837ffdd7331fb87be3e76deb53028d0d4cb66.zip",
             "sha1": "4fc850d4a145be49a9aa0428dcbc5c5c82f19f93",
             "root": "openapi-generator-script-77c837ffdd7331fb87be3e76deb53028d0d4cb66",
+            "path": ["."]
+          }
+        }
+      }
+    },
+    {
+      "name": "ssh-over-http-proxy",
+      "platforms": {
+        "macos": {
+          "universal": {
+            "url": "https://github.com/tipi-build/ssh-over-http-proxy/releases/download/v1.0.0/ssh-over-http-proxy-macos.zip",
+            "sha1": "bed47ab90b0d4a539af43918a6e4061b31e1da8e",
+            "root": "ssh-over-http-proxy-macos",
+            "path": ["."]
+          }
+        },
+        "linux": {
+          "universal": {
+            "url": "https://github.com/tipi-build/ssh-over-http-proxy/releases/download/v1.0.0/ssh-over-http-proxy-linux.zip",
+            "sha1": "fa9e251a9ca55c0d56ec6fe1f377267b4c1ac6af",
+            "root": "ssh-over-http-proxy-linux",
+            "path": ["."]
+          }
+        },
+        "windows": {
+          "universal": {
+            "url": "https://github.com/tipi-build/ssh-over-http-proxy/releases/download/v1.0.0/ssh-over-http-proxy-win.zip",
+            "sha1": "b1f642db4ba0155868450c2ca69508eca1c07aba",
+            "root": "ssh-over-http-proxy-win",
             "path": ["."]
           }
         }
