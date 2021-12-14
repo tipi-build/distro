@@ -395,7 +395,7 @@
             "url": "https://nxxm.indigenious.io/distro//hackathon/gh-runner/gh-runner-macos.zip",
             "sha1": "6188734cb790a7abb642c0c9c772dadd84cefdda",
             "root": "actions-runner-osx-x64-2.285.1",
-            "path": ["."]
+            "path": [".","bin"]
           }
         },
         "linux": {
@@ -403,7 +403,7 @@
             "url": "https://nxxm.indigenious.io/distro//hackathon/gh-runner/gh-runner-linux.zip",
             "sha1": "01f109858b5a211370c8364c52d9bfecca63295f",
             "root": "actions-runner-linux-x64-2.285.1",
-            "path": ["."]
+            "path": [".","bin"]
           }
         },
         "windows": {
@@ -411,7 +411,7 @@
             "url": "https://nxxm.indigenious.io/distro//hackathon/gh-runner/gh-runner-win64.zip",
             "sha1": "9bfa35cc7ad91fffa94a3f31167a06ae8cc798b6",
             "root": "actions-runner-win-x64-2.285.1",
-            "path": ["."]
+            "path": [".","bin"]
           }
         }
       }
