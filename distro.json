@@ -69,9 +69,9 @@
       "platforms": {
         "all": {
           "universal": {
-            "url": "https://github.com/tipi-build/environments/archive/101d9c93c6e78507c5d67e1d9d7ac709defcbb99.zip",
-            "sha1": "15255b58bc3b59b84171c6a904c7a8360c11808e",
-            "root": "environments-101d9c93c6e78507c5d67e1d9d7ac709defcbb99"
+            "url": "https://github.com/tipi-build/environments/archive/b6029cc73ec6eb2e64016fc6b87317d019c8cfd9.zip",
+            "sha1": "a1fa14d58130ece9ee577350b7765f49199d1aa2",
+            "root": "environments-b6029cc73ec6eb2e64016fc6b87317d019c8cfd9"
           }
         }
       }
