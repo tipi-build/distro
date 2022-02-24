@@ -386,6 +386,35 @@
           }
         }
       }
+    },
+    {
+      "name": "gcc-arm-none-eabi",
+      "platforms": {
+        "macos": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/beta/gcc-arm-none-eabi/gcc-arm-none-eabi-10.3-2021.10-mac.zip",
+            "sha1": "d6930112e257387bbce85223a1181c1bb9072c9a",
+            "root": "gcc-arm-none-eabi-10.3-2021.10",
+            "path": ["bin", "arm-none-eabi/bin/"]
+          }
+        },
+        "linux": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/beta/gcc-arm-none-eabi/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux.zip",
+            "sha1": "db5f1b3fa2a7a3741b11957cca3a73f0ab51d400",
+            "root": "gcc-arm-none-eabi-10.3-2021.10",
+            "path": ["bin", "arm-none-eabi/bin/"]
+          }
+        },
+        "windows": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/beta/gcc-arm-none-eabi/gcc-arm-none-eabi-10.3-2021.10-win32.zip",
+            "sha1": "72b73ef724b72260f842bb4d5fe6aa264e3e5b74",
+            "root": "gcc-arm-none-eabi-10.3-2021.10",
+            "path": ["bin", "arm-none-eabi/bin/"]
+          }
+        }
+      }
     }
   ]
 }
