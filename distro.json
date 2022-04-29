@@ -63,7 +63,6 @@
         }
       }
     },
-  
     {
       "name": "environments",
       "platforms": {
@@ -382,6 +381,35 @@
             "url": "https://github.com/tipi-build/ssh-over-http-proxy/releases/download/v1.0.0/ssh-over-http-proxy-win.zip",
             "sha1": "b1f642db4ba0155868450c2ca69508eca1c07aba",
             "root": "ssh-over-http-proxy-win",
+            "path": ["."]
+          }
+        }
+      }
+    },
+    {
+      "name": "build-cache",
+      "platforms": {
+        "macos": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/all/sccache/sccache-v0.2.15-x86_64-apple-darwin.zip",
+            "sha1": "5abf482a94a9eed56836ff85eb05f90ba691bc2b",
+            "root": "sccache-macos",
+            "path": ["."]
+          }
+        },
+        "linux": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/all/sccache/sccache-v0.2.15-x86_64-unknown-linux-musl.zip",
+            "sha1": "fd4feeb2f79e74f115d3b80324af46342afa4e18",
+            "root": "sccache-linux",
+            "path": ["."]
+          }
+        },
+        "windows": {
+          "universal": {
+            "url": "https://nxxm.indigenious.io/distro/all/sccache/sccache-v0.2.15-x86_64-pc-windows-msvc.zip",
+            "sha1": "8b26eb725c3b8fa9ce2330f7947c473652727e72",
+            "root": "sccache-win",
             "path": ["."]
           }
         }
