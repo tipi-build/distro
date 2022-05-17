@@ -204,7 +204,7 @@
         "linux": {
           "universal": {
             "url": "https://nxxm.indigenious.io/distro/all/clang/v13.0.0/clang-13-linux-1604-64bit.zip",
-            "sha1": "34187998c3b14e80f4cc5d22c04e5fb993809f21",
+            "sha1": "4f846ee40c9ae0f6182fd7553ef8684ff06e63bc",
             "root": "clang-linux-1604",
             "path": ["bin"]
           }
