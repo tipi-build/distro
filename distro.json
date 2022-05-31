@@ -203,9 +203,9 @@
         },
         "linux": {
           "universal": {
-            "url": "https://nxxm.indigenious.io/distro/all/clang/v13.0.0/clang-13-linux-64bit.zip",
-            "sha1": "8142227babbf16c835fa8a930d4fcfefc336d4ba",
-            "root": "clang-linux",
+            "url": "https://nxxm.indigenious.io/distro/all/clang/v13.0.0/clang-13-linux-1604-64bit.zip",
+            "sha1": "4f846ee40c9ae0f6182fd7553ef8684ff06e63bc",
+            "root": "clang-linux-1604",
             "path": ["bin"]
           }
         },
@@ -261,8 +261,8 @@
         },
         "linux": {
           "universal": {
-            "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_8.0.3p2_linux_amd64.zip",
-            "sha1": "9b0a5c87058b68cd466a3cc8e8cfd7d9cbd89df2",
+            "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_8.0.3p2_linux_amd64_16_04_v3.zip",
+            "sha1": "ddf5ecc9e0a8a6e04a65353a244214493e8d445f",
             "root": "tipi_seafile_client",
             "path": [".","daemon"]
           }
