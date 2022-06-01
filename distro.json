@@ -262,7 +262,7 @@
         "linux": {
           "universal": {
             "url": "https://github.com/tipi-build/seafile-build/releases/download/v0.0.1/tipi-v0.0.1-seafile-linux.zip",
-            "sha1": "e43cd41aa6b2528af7540d70d19cc212dc000af5",
+            "sha1": "46a79c6706676ef5289d9b0bc3a7d415104df2d9",
             "root": "tipi_seafile_client",
             "path": [".","daemon"]
           }
