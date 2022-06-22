@@ -104,9 +104,10 @@
         },
         "linux": {
           "universal": {
-            "url": "",
-            "sha1": "",
-            "root": ""
+            "url": "https://github.com/tipi-build/cpython-build/releases/download/3.10.5/tipi-python-3.10.5-w-openssl-1.1.1o.zip",
+            "sha1": "104c896cfc328ec91936012f6c583fdcfc08d0c2",
+            "root": "",
+            "path": ["bin"]
           }
         },
         "windows": {
