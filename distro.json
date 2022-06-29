@@ -69,9 +69,9 @@
       "platforms": {
         "all": {
           "universal": {
-            "url": "https://github.com/tipi-build/environments/archive/c22bcaff3e89f9c3f51beb153df1a0b21974e111.zip",
-            "sha1": "07730da60965fb73d738d6f4f3a0833c0168bbf3",
-            "root": "environments-c22bcaff3e89f9c3f51beb153df1a0b21974e111"
+            "url": "https://github.com/tipi-build/environments/archive/b3f525af990af4cf2b9a067fe562dbaa800fc734.zip",
+            "sha1": "0d74d4d5a4268dc606cb8f76124f64499333835f",
+            "root": "environments-b3f525af990af4cf2b9a067fe562dbaa800fc734"
           }
         }
       }
@@ -103,9 +103,9 @@
           }
         },
         "linux": {
-          "universal": {
-            "url": "https://github.com/tipi-build/cpython-build/releases/download/3.10.5/tipi-python-3.10.5-w-openssl-1.1.1o.zip",
-            "sha1": "104c896cfc328ec91936012f6c583fdcfc08d0c2",
+          "x86_64": {
+            "url": "https://github.com/tipi-build/cpython-build/releases/download/3.10.5p1/tipi-python-3.10.5-w-openssl-1.1.1o.zip",
+            "sha1": "322db30c71f259efff38c687e5dd5f9b1e92fb9e",
             "root": "",
             "path": ["bin"]
           }
