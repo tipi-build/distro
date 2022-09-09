@@ -387,6 +387,35 @@
           }
         }
       }
+    },
+    {
+      "name": "elfshaker",
+      "platforms": {
+        "macos": {
+          "universal": {
+            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.1/elfshaker-macos.zip",
+            "sha1": "2c36957be29ceb17f1bf809d874500bdf3deaa42",
+            "root": "",
+            "path": ["."]
+          }
+        },
+        "linux": {
+          "universal": {
+            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.1/elfshaker-linux.zip",
+            "sha1": "93fdfa4a52ba365d61f66227c54320c6f72a7d54",
+            "root": "",
+            "path": ["."]
+          }
+        },
+        "windows": {
+          "universal": {
+            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.1/elfshaker-win.zip",
+            "sha1": "81d18608197690d0dfac0b01dcd006623e99bb8f",
+            "root": "",
+            "path": ["."]
+          }
+        }
+      }
     }
   ]
 }
