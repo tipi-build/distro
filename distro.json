@@ -1,6 +1,6 @@
 {
   "modes" : { 
-    "default" : ["python","file-sync", "openssh","file-sync-ext","environments","ssh-over-http-proxy"]
+    "default" : ["python", "openssh", "environments", "ssh-over-http-proxy", "elfshaker"]
   }
 
   ,"distro": [
@@ -245,48 +245,6 @@
             "sha1": "782c595c1aece9fea8bfa7a14bfbf52e206a0f91",
             "root": "go",
             "path": ["bin"]
-          }
-        }
-      }
-    },
-    {
-      "name": "file-sync",
-      "platforms": {
-        "macos": {
-          "universal": {
-            "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_MacOs.zip",
-            "sha1": "d20a8c574b546801f0964780e612adb69e1f84d4",
-            "root": "tipi_seafile_client",
-            "path": [".","Contents/Resources"]
-          }
-        },
-        "linux": {
-          "universal": {
-            "url": "https://github.com/tipi-build/seafile-build/releases/download/v0.0.1/tipi-v0.0.1-seafile-linux.zip",
-            "sha1": "46a79c6706676ef5289d9b0bc3a7d415104df2d9",
-            "root": "tipi_seafile_client",
-            "path": [".","daemon"]
-          }
-        },
-        "windows": {
-          "universal": {
-            "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_windows.zip",
-            "sha1": "01b125c46bed19ec725984b91aa8ac096ec3c7f2",
-            "root": "tipi_seafile_client",
-            "path": ["deamon/PFiles/Seafile/bin"]
-          }
-        }
-      }
-    },
-    {
-      "name": "file-sync-ext",
-      "platforms": {
-        "windows": {
-          "universal": {
-            "url": "https://github.com/tipi-build/seafile-cli-ext/archive/bc2f92969cd86593862a3b98dc4c8a4dbdf01f8b.zip",
-            "sha1": "2d5f0d8b12716ece815031dcbcd50f72ab95ceba",
-            "root": "seafile-cli-ext-bc2f92969cd86593862a3b98dc4c8a4dbdf01f8b",
-            "path": ["src"]
           }
         }
       }
