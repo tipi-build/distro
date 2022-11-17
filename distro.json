@@ -352,7 +352,7 @@
         "macos": {
           "universal": {
             "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.3/elfshaker-macos.zip",
-            "sha1": "a02b7b19977989fb4fa7b6afd05471632b6e1182",
+            "sha1": "860ba0f6a91871c583b1770a9b99621d979c616e",
             "root": "",
             "path": ["."]
           }
@@ -360,7 +360,7 @@
         "linux": {
           "universal": {
             "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.3/elfshaker-linux.zip",
-            "sha1": "5de78b5e203ebe0a4cb48c0eaea9d51ab0611ca0",
+            "sha1": "6b441831070e001438d7f85027f317235de97775",
             "root": "",
             "path": ["."]
           }
@@ -368,7 +368,7 @@
         "windows": {
           "universal": {
             "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.3/elfshaker-win.zip",
-            "sha1": "9491ad392da6db5f45f35862a6ddb22c19f3bb24",
+            "sha1": "9d06dd80290562f5a703676a6cbc4ca6ef2e38b1",
             "root": "",
             "path": ["."]
           }
