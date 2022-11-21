@@ -1,6 +1,6 @@
 {
   "modes" : { 
-    "default" : ["python","file-sync", "openssh","file-sync-ext","environments","ssh-over-http-proxy"]
+    "default" : ["python", "openssh", "environments", "ssh-over-http-proxy", "elfshaker"]
   }
 
   ,"distro": [
@@ -69,9 +69,9 @@
       "platforms": {
         "all": {
           "universal": {
-            "url": "https://github.com/tipi-build/environments/archive/272adbb3f250ee71a662f05c2aade70b631d443b.zip",
-            "sha1": "088baf59fa10dee69930bab580a224b0f2f23f35",
-            "root": "environments-272adbb3f250ee71a662f05c2aade70b631d443b"
+            "url": "https://github.com/tipi-build/environments/archive/d40aa228196a08d0260454cdb8ba93b8f3c02518.zip",
+            "sha1": "33dc11ff04a796f13c74de07b203f9301472376e",
+            "root": "environments-d40aa228196a08d0260454cdb8ba93b8f3c02518"
           }
         }
       }
@@ -250,48 +250,6 @@
       }
     },
     {
-      "name": "file-sync",
-      "platforms": {
-        "macos": {
-          "universal": {
-            "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_MacOs.zip",
-            "sha1": "d20a8c574b546801f0964780e612adb69e1f84d4",
-            "root": "tipi_seafile_client",
-            "path": [".","Contents/Resources"]
-          }
-        },
-        "linux": {
-          "universal": {
-            "url": "https://github.com/tipi-build/seafile-build/releases/download/v0.0.1/tipi-v0.0.1-seafile-linux.zip",
-            "sha1": "46a79c6706676ef5289d9b0bc3a7d415104df2d9",
-            "root": "tipi_seafile_client",
-            "path": [".","daemon"]
-          }
-        },
-        "windows": {
-          "universal": {
-            "url": "https://nxxm.indigenious.io/distro/all/seafile_client/tipi_seafile_client_windows.zip",
-            "sha1": "01b125c46bed19ec725984b91aa8ac096ec3c7f2",
-            "root": "tipi_seafile_client",
-            "path": ["deamon/PFiles/Seafile/bin"]
-          }
-        }
-      }
-    },
-    {
-      "name": "file-sync-ext",
-      "platforms": {
-        "windows": {
-          "universal": {
-            "url": "https://github.com/tipi-build/seafile-cli-ext/archive/bc2f92969cd86593862a3b98dc4c8a4dbdf01f8b.zip",
-            "sha1": "2d5f0d8b12716ece815031dcbcd50f72ab95ceba",
-            "root": "seafile-cli-ext-bc2f92969cd86593862a3b98dc4c8a4dbdf01f8b",
-            "path": ["src"]
-          }
-        }
-      }
-    },
-    {
       "name": "openssh",
       "platforms": {
         "windows": {
@@ -383,6 +341,35 @@
             "url": "https://github.com/tipi-build/ssh-over-http-proxy/releases/download/v1.0.0/ssh-over-http-proxy-win.zip",
             "sha1": "b1f642db4ba0155868450c2ca69508eca1c07aba",
             "root": "ssh-over-http-proxy-win",
+            "path": ["."]
+          }
+        }
+      }
+    },
+    {
+      "name": "elfshaker",
+      "platforms": {
+        "macos": {
+          "universal": {
+            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.3/elfshaker-macos.zip",
+            "sha1": "860ba0f6a91871c583b1770a9b99621d979c616e",
+            "root": "",
+            "path": ["."]
+          }
+        },
+        "linux": {
+          "universal": {
+            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.3/elfshaker-linux.zip",
+            "sha1": "6b441831070e001438d7f85027f317235de97775",
+            "root": "",
+            "path": ["."]
+          }
+        },
+        "windows": {
+          "universal": {
+            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.3/elfshaker-win.zip",
+            "sha1": "9d06dd80290562f5a703676a6cbc4ca6ef2e38b1",
+            "root": "",
             "path": ["."]
           }
         }
