@@ -352,7 +352,7 @@
         "macos": {
           "universal": {
             "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.11/elfshaker-macos.zip",
-            "sha1": "5da528e753a9e9f6d4ed64019c0dc0cc0fc9ffd3",
+            "sha1": "b77cbdf2ce4eaeccd5b23b5f65c5243db1057d57",
             "root": "",
             "path": ["."]
           }
@@ -360,7 +360,7 @@
         "linux": {
           "universal": {
             "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.11/elfshaker-linux.zip",
-            "sha1": "b77cbdf2ce4eaeccd5b23b5f65c5243db1057d57",
+            "sha1": "5da528e753a9e9f6d4ed64019c0dc0cc0fc9ffd3",
             "root": "",
             "path": ["."]
           }
