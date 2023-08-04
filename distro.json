@@ -374,35 +374,6 @@
           }
         }
       }
-    },
-    {
-      "name": "ninja",
-      "platforms": {
-        "macos": {
-          "universal": {
-            "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.1/ninja-mac.zip",
-            "sha1": "1591d14e278a57044dabf0ec969c9f2bbe68eee6",
-            "root": "",
-            "path": ["."]
-          }
-        },
-        "linux": {
-          "universal": {
-            "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.1/ninja-linux.zip",
-            "sha1": "6256dd68a94442ebeea8c95f6306a7d8147c7a00",
-            "root": "",
-            "path": ["."]
-          }
-        },
-        "windows": {
-          "universal": {
-            "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.1/ninja-win.zip",
-            "sha1": "34cf2f9566e5f233669fa26f697e9a497e1a9df5",
-            "root": "",
-            "path": ["."]
-          }
-        }
-      }
     }
   ]
 }
