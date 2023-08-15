@@ -150,19 +150,7 @@
         }
       }
     },
-    {
-      "name": "emsdk",
-      "platforms": {
-        "all": {
-          "universal": {
-            "url": "https://github.com/emscripten-core/emsdk/archive/7cba2e0a92b9df42376707dfdae6e1f108f79a27.zip",
-            "sha1": "f693e7f511d2d320d20a1376812321763027728e",
-            "root": "emsdk-7cba2e0a92b9df42376707dfdae6e1f108f79a27",
-            "path": ["bin", "upstream/emscripten", "python/3.7.4-pywin32_64bit"]
-          }
-        }
-      }
-    },
+
   
     {
       "name": "hunter",
