@@ -69,9 +69,9 @@
       "platforms": {
         "all": {
           "universal": {
-            "url": "https://github.com/tipi-build/environments/archive/94ecd285bbc7fd74504e721799d43716d2560828.zip",
-            "sha1": "bcd83a12d4232f9ed75c732002cdee8606965157",
-            "root": "environments-94ecd285bbc7fd74504e721799d43716d2560828"
+            "url": "https://github.com/tipi-build/environments/archive/53ffe525d0bf0cd1207138368321d2034040e4f8.zip",
+            "sha1": "6b578743f7f0e03d16e57c45e98b41bd636ff679",
+            "root": "environments-53ffe525d0bf0cd1207138368321d2034040e4f8"
           }
         }
       }
@@ -225,24 +225,24 @@
       "platforms": {
         "macos": {
           "universal": {
-            "url": "https://nxxm.indigenious.io/distro/v0.0.12/go/go_1.14.14_darwin_64bit.zip",
-            "sha1": "1e2561d8307eb513a23eb7c9a8b769b800db27af",
+            "url": "https://nxxm.indigenious.io/distro/all/go/go1.21.0.darwin-amd64.zip",
+            "sha1": "fa766552836553eccf7bf918c26fe327d0ddecd2",
             "root": "go",
             "path": ["bin"]
           }
         },
         "linux": {
           "universal": {
-            "url": "https://nxxm.indigenious.io/distro/v0.0.12/go/go_1.14.14_linux_64bit.zip",
-            "sha1": "9fc8f520528b3f353b1feeb1279f241d2a5c3677",
+            "url": "https://nxxm.indigenious.io/distro/all/go/go1.21.0.linux-amd64.zip",
+            "sha1": "16ac2d4888e89b51060b718e5141e529b52265fd",
             "root": "go",
             "path": ["bin"]
           }
         },
         "windows": {
           "universal": {
-            "url": "http://nxxm.indigenious.io/distro/v0.0.12/go/go_1.14.14_windows_x86_64.zip",
-            "sha1": "782c595c1aece9fea8bfa7a14bfbf52e206a0f91",
+            "url": "http://nxxm.indigenious.io/distro/all/go/go1.21.0.windows-amd64.zip",
+            "sha1": "2957ec33166bb25743c4d2f365c07fc21b02198e",
             "root": "go",
             "path": ["bin"]
           }
