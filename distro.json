@@ -96,8 +96,8 @@
       "platforms": {
         "macos": {
           "x86_64": {
-            "url": "https://nxxm.indigenious.io/distro/v0.0.12/python/python-3.8.0-Darwin-x64.zip",
-            "sha1": "54b633011cd24867662c9dbaeda596bb3261a09c",
+            "url": "https://github.com/tipi-deps/adapter-cpython/releases/download/v3.11.5/python-v3.11.5-macos-x86_64.zip",
+            "sha1": "f236ecef1ca276df4b0a98d9aeaa39b6bd8da97a",
             "root": "",
             "path": [".", "bin"]
           }
