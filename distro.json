@@ -96,8 +96,8 @@
       "platforms": {
         "macos": {
           "x86_64": {
-            "url": "https://github.com/tipi-deps/adapter-cpython/releases/download/v3.11.5/python-v3.11.5-macos-x86_64.zip",
-            "sha1": "f236ecef1ca276df4b0a98d9aeaa39b6bd8da97a",
+            "url": "https://github.com/tipi-deps/adapter-cpython/releases/download/v3.11.5p1/python-v3.11.5-macos-x86_64.zip",
+            "sha1": "f2b5dd2414b09f61b9a48237f618bf1f808f8ef1",
             "root": "python-v3.11.5-macos-x86_64",
             "path": [".", "bin"]
           }
