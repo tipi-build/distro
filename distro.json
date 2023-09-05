@@ -96,9 +96,9 @@
       "platforms": {
         "macos": {
           "x86_64": {
-            "url": "https://nxxm.indigenious.io/distro/v0.0.12/python/python-3.8.0-Darwin-x64.zip",
-            "sha1": "54b633011cd24867662c9dbaeda596bb3261a09c",
-            "root": "",
+            "url": "https://github.com/tipi-deps/adapter-cpython/releases/download/v3.11.5p2/python-v3.11.5-macos-x86_64.zip",
+            "sha1": "505776a33db1d6aa010aa026e2f4b5b18c6ffdd5",
+            "root": "python-v3.11.5-macos-x86_64",
             "path": [".", "bin"]
           }
         },
@@ -155,9 +155,9 @@
       "platforms": {
         "all": {
           "universal": {
-            "url": "https://github.com/emscripten-core/emsdk/archive/7cba2e0a92b9df42376707dfdae6e1f108f79a27.zip",
-            "sha1": "f693e7f511d2d320d20a1376812321763027728e",
-            "root": "emsdk-7cba2e0a92b9df42376707dfdae6e1f108f79a27",
+            "url": "https://github.com/emscripten-core/emsdk/archive/refs/tags/3.1.45.zip",
+            "sha1": "14c1a3bdb6a1a2a7fe664636f1a8f86629f55b2d",
+            "root": "emsdk-3.1.45",
             "path": ["bin", "upstream/emscripten", "python/3.7.4-pywin32_64bit"]
           }
         }
