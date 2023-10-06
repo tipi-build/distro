@@ -191,6 +191,20 @@
         }
       }
     },
+
+    {
+      "name": "cmake-tipi-provider",
+      "platforms": {
+        "all": {
+          "universal": {
+            "url": "https://github.com/tipi-build/cmake-tipi-provider/archive/1d68b7cf7230f600383409a13e615fc434425750.zip",
+            "sha1": "7e3242805b81aaf16a2eb7644128d24fa10a85be",
+            "root": "cmake-tipi-provider-1d68b7cf7230f600383409a13e615fc434425750"
+          }
+        }
+      }
+    },
+
     {
       "name": "clang",
       "platforms": {
