@@ -197,9 +197,9 @@
       "platforms": {
         "all": {
           "universal": {
-            "url": "https://github.com/tipi-build/cmake-tipi-provider/archive/aaa91aec23decff780812c7cb8997b2f0946077c.zip",
-            "sha1": "5dff26a187e7011f019457f3a1d3080afbef46db",
-            "root": "cmake-tipi-provider-aaa91aec23decff780812c7cb8997b2f0946077c"
+            "url": "https://github.com/tipi-build/cmake-tipi-provider/archive/1d68b7cf7230f600383409a13e615fc434425750.zip",
+            "sha1": "7e3242805b81aaf16a2eb7644128d24fa10a85be",
+            "root": "cmake-tipi-provider-1d68b7cf7230f600383409a13e615fc434425750"
           }
         }
       }
