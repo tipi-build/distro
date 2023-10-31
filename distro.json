@@ -417,6 +417,20 @@
           }
         }
       }
+    },
+    {
+	    "name": "nasm",
+	    "platforms": {
+		"linux": {
+		  "universal": {
+		    "url": "https://www.nasm.us/pub/nasm/releasebuilds/2.16.01/win64/nasm-2.16.01-win64.zip",
+		    "sha1": "412520f192224715fb91d643f9640ce1005cab99",
+		    "root": "",
+		    "path": ["."]
+		  } 
+		}
+	    }
+		
     }
   ]
 }
