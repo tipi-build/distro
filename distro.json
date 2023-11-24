@@ -365,24 +365,24 @@
       "platforms": {
         "macos": {
           "universal": {
-            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.17/elfshaker-macos.zip",
-            "sha1": "42a9c3940fe63e1f7eca9bbd62c6ad353229a492",
+            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.18/elfshaker-macos.zip",
+            "sha1": "47ff428a8a699c6f8bdf81e68568c7cbd22df81d",
             "root": "",
             "path": ["."]
           }
         },
         "linux": {
           "universal": {
-            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.17/elfshaker-linux.zip",
-            "sha1": "47f71b9eed9b2bc02f00e4c40d1968e589ef1cce",
+            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.18/elfshaker-linux.zip",
+            "sha1": "7f2b5504c074ebdc0fbbbd5d71a14ec04299ab09",
             "root": "",
             "path": ["."]
           }
         },
         "windows": {
           "universal": {
-            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.17/elfshaker-win.zip",
-            "sha1": "d5a6d08b9d0930129e7cc77c2dce3aa2c3a9706a",
+            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.18/elfshaker-win.zip",
+            "sha1": "6bfd5ce090f5255e9f09abc40f7de6764d19300a",
             "root": "",
             "path": ["."]
           }
