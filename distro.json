@@ -18,8 +18,8 @@
         },
         "linux": {
           "x86_64": {
-            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.27.6/cmake-3.27.6-linux-x86_64.zip",
-            "sha1": "04ebde3c847eb4dbf06062f059e150f55df6a6d9",
+            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.27.6-2/cmake-3.27.6-linux-x86_64.zip",
+            "sha1": "a1766671ec0287f129f96986a7e4296d04818acf",
             "root": "cmake-3.27.6-linux-x86_64",
             "module_path": "share/cmake-3.27/Modules",
             "path": ["bin"]
