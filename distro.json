@@ -18,8 +18,8 @@
         },
         "linux": {
           "x86_64": {
-            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.27.6/cmake-3.27.6-linux-x86_64.zip",
-            "sha1": "04ebde3c847eb4dbf06062f059e150f55df6a6d9",
+            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.27.6-2/cmake-3.27.6-linux-x86_64.zip",
+            "sha1": "a1766671ec0287f129f96986a7e4296d04818acf",
             "root": "cmake-3.27.6-linux-x86_64",
             "module_path": "share/cmake-3.27/Modules",
             "path": ["bin"]
@@ -49,16 +49,18 @@
         },
         "linux": {
           "universal": {
-            "url": "",
-            "sha1": "",
-            "root": ""
+            "url": "https://github.com/tipi-build/make-package/releases/download/v4.4.1/make-linux.zip",
+            "sha1": "07df594568d8ad52a2f75dde3645ba9cc0a7670e",
+            "root": "",
+            "path": ["."]
           }
         },
         "macos": {
           "universal": {
-            "url": "",
-            "sha1": "",
-            "root": ""
+            "url": "https://github.com/tipi-build/make-package/releases/download/v4.4.1/make-macos.zip",
+            "sha1": "3914bb1a60e83c0cbffcd3137788a7227183e884",
+            "root": "",
+            "path": ["."]
           }
         }
       }
