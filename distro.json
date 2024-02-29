@@ -49,16 +49,16 @@
         },
         "linux": {
           "universal": {
-            "url": "https://github.com/tipi-build/make-package/releases/download/v4.4.1/make-linux.zip",
-            "sha1": "07df594568d8ad52a2f75dde3645ba9cc0a7670e",
+            "url": "https://github.com/tipi-build/make-package/releases/download/v4.4.1-2/make-linux.zip",
+            "sha1": "703bccd10b89ac39e1d933adc179dfb88682a897",
             "root": "",
             "path": ["."]
           }
         },
         "macos": {
           "universal": {
-            "url": "https://github.com/tipi-build/make-package/releases/download/v4.4.1/make-macos.zip",
-            "sha1": "3914bb1a60e83c0cbffcd3137788a7227183e884",
+            "url": "https://github.com/tipi-build/make-package/releases/download/v4.4.1-2/make-macos.zip",
+            "sha1": "41dd20e3a7f44b454805cfb9986847f7c3c9a25a",
             "root": "",
             "path": ["."]
           }
