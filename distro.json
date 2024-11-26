@@ -71,9 +71,9 @@
       "platforms": {
         "all": {
           "universal": {
-            "url": "https://github.com/tipi-build/environments/archive/8313053c2080c3b802f403eb78af226ca83feb88.zip",
-            "sha1": "8315ad50dc4888b7ed064bdc31b16a68f04c0731",
-            "root": "environments-8313053c2080c3b802f403eb78af226ca83feb88"
+            "url": "https://github.com/tipi-build/environments/archive/0bd3c2540b3e2bc6ce117125796c935b9a91b10c.zip",
+            "sha1": "eae7c0df9bc1581af1bef9a6307a38ce51d625fb",
+            "root": "environments-0bd3c2540b3e2bc6ce117125796c935b9a91b10c"
           }
         }
       }
@@ -199,9 +199,9 @@
       "platforms": {
         "all": {
           "universal": {
-            "url": "https://github.com/tipi-build/cmake-tipi-provider/archive/aaa91aec23decff780812c7cb8997b2f0946077c.zip",
-            "sha1": "5dff26a187e7011f019457f3a1d3080afbef46db",
-            "root": "cmake-tipi-provider-aaa91aec23decff780812c7cb8997b2f0946077c"
+            "url": "https://github.com/tipi-build/cmake-tipi-provider/archive/1d68b7cf7230f600383409a13e615fc434425750.zip",
+            "sha1": "7e3242805b81aaf16a2eb7644128d24fa10a85be",
+            "root": "cmake-tipi-provider-1d68b7cf7230f600383409a13e615fc434425750"
           }
         }
       }
