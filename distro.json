@@ -9,27 +9,27 @@
       "platforms": {
         "macos": {
           "x86_64": {
-            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.27.6/cmake-3.27.6-macos-universal.zip",
-            "sha1": "c982bde0e23fc5c74b98c14a93bc63ceef802b2e",
-            "root": "cmake-3.27.6-macos-universal/CMake.app/Contents",
+            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.31.4/cmake-3.31.4-macos-universal.zip",
+            "sha1": "73e2550c52329e98b642d31ca1b2ed50a9f72bd1",
+            "root": "cmake-3.31.4-macos-universal/CMake.app/Contents",
             "module_path": "share/cmake-3.27/Modules",
             "path": ["bin"]
           } 
         },
         "linux": {
           "x86_64": {
-            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.27.6-2/cmake-3.27.6-linux-x86_64.zip",
-            "sha1": "a1766671ec0287f129f96986a7e4296d04818acf",
-            "root": "cmake-3.27.6-linux-x86_64",
+            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.31.4/cmake-3.31.4-linux-x86_64.zip",
+            "sha1": "a215e7898f1fa992826ce190cb095d4891c6ff91",
+            "root": "cmake-3.31.4-linux-x86_64",
             "module_path": "share/cmake-3.27/Modules",
             "path": ["bin"]
           }
         },
         "windows": {
           "x86_64": {
-            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.27.6/cmake-3.27.6-windows-x86_64.zip",
-            "sha1": "1dd424e513a34acbde9dfc2c01a9e06dace75239",
-            "root": "cmake-3.27.6-windows-x86_64",
+            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.31.4/cmake-3.31.4-windows-x86_64.zip",
+            "sha1": "a50024f86d0b3ce7730ba8f2c8e44b5e33f17776",
+            "root": "cmake-3.31.4-windows-x86_64",
             "module_path": "share/cmake-3.27/Modules",
             "path": ["bin"]
           }
