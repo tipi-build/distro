@@ -419,6 +419,19 @@
           }
         }
       }
+    },
+    {
+      "name": "reclient",
+      "platforms": {
+        "linux": {
+          "universal": {
+            "url": "https://github.com/tipi-build/distro-reclient/releases/download/v0.0.0/linux-reclient.zip",
+            "sha1": "282eeebd85c434b5f862e8272e820a29416165bd",
+            "root": "",
+            "path": ["linux-reclient"]
+          }
+        }
+      }
     }
   ]
 }
