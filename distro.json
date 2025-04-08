@@ -419,6 +419,35 @@
           }
         }
       }
+    },
+    {
+      "name": "tipi-compiler-driver",
+      "platforms": {
+        "macos": {
+          "universal": {
+            "url": "https://github.com/tipi-build/tipi-compiler-driver/releases/download/v0.0.1/tipi-compiler-driver-macos.zip",
+            "sha1": "b417ff3c28df5210380ce24a8d1e7caa22df3d1a",
+            "root": "",
+            "path": ["."]
+          }
+        },
+        "linux": {
+          "universal": {
+            "url": "https://github.com/tipi-build/tipi-compiler-driver/releases/download/v0.0.1/tipi-compiler-driver-linux.zip",
+            "sha1": "b0c4ece2db515b4563f11363e9b474541d50f2ec",
+            "root": "",
+            "path": ["."]
+          }
+        },
+        "windows": {
+          "universal": {
+            "url": "https://github.com/tipi-build/tipi-compiler-driver/releases/download/v0.0.1/tipi-compiler-driver-win.zip",
+            "sha1": "fe60e2b817495378e1c2890e8a401fe1f089013a",
+            "root": "",
+            "path": ["."]
+          }
+        }
+      }
     }
   ]
 }
