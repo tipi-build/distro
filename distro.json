@@ -8,7 +8,7 @@
       "name": "cmake",
       "platforms": {
         "macos": {
-          "x86_64": {
+          "universal": {
             "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.27.6/cmake-3.27.6-macos-universal.zip",
             "sha1": "c982bde0e23fc5c74b98c14a93bc63ceef802b2e",
             "root": "cmake-3.27.6-macos-universal/CMake.app/Contents",
@@ -414,6 +414,27 @@
           "universal": {
             "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.1/ninja-win.zip",
             "sha1": "34cf2f9566e5f233669fa26f697e9a497e1a9df5",
+            "root": "",
+            "path": ["."]
+          }
+        }
+      }
+    },
+    {
+      "name": "reclient",
+      "platforms": {
+        "macos": {
+          "arm": {
+            "url": "https://storage.googleapis.com/engflow-tools-public/reclient/5310a5a40340aa4c778fbfc6aa21f7be2f67d5ec/reclient-5310a5a40340aa4c778fbfc6aa21f7be2f67d5ec-macos-arm64.zip",
+            "sha1": "d43cd72b5235ac5de891c654a5579e2f3248d0cd",
+            "root": "",
+            "path": ["."]
+          }
+        },
+        "linux": {
+          "x86_64": {
+            "url": "https://storage.googleapis.com/engflow-tools-public/reclient/5310a5a40340aa4c778fbfc6aa21f7be2f67d5ec/reclient-5310a5a40340aa4c778fbfc6aa21f7be2f67d5ec-linux-x86_64.zip",
+            "sha1": "0db689fad5fb83ca4053b78b188a857e00d12e35",
             "root": "",
             "path": ["."]
           }
