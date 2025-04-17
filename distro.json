@@ -1,6 +1,6 @@
 {
   "modes" : { 
-    "default" : ["python", "openssh", "environments", "ssh-over-http-proxy", "elfshaker"]
+    "default" : ["python", "openssh", "environments", "ssh-over-http-proxy", "elfshaker", "tipi-compiler-driver"]
   }
 
   ,"distro": [
