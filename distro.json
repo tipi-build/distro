@@ -440,6 +440,41 @@
           }
         }
       }
+    },
+    {
+      "name": "tipi-compiler-driver",
+      "platforms": {
+        "macos": {
+          "x86_64": {
+            "url": "https://github.com/tipi-build/tipi-compiler-driver/releases/download/v0.0.1/tipi-compiler-driver-macos-x86_64.zip",
+            "sha1": "36f0416cd678a9fb87b32e45541558ce084d995c",
+            "root": "",
+            "path": ["."]
+          },
+          "arm": {
+            "url": "https://github.com/tipi-build/tipi-compiler-driver/releases/download/v0.0.1/tipi-compiler-driver-macos-arm64.zip",
+            "sha1": "7a5388665dd8133c5844a4f919d32aa433d81de9",
+            "root": "",
+            "path": ["."]
+          }
+        },
+        "linux": {
+          "x86_64": {
+            "url": "https://github.com/tipi-build/tipi-compiler-driver/releases/download/v0.0.1/tipi-compiler-driver-linux-x86_64.zip",
+            "sha1": "8070efd6acb4b466b007de6b9266172581fa5263",
+            "root": "",
+            "path": ["."]
+          }
+        },
+        "windows": {
+          "x86_64": {
+            "url": "https://github.com/tipi-build/tipi-compiler-driver/releases/download/v0.0.1/tipi-compiler-driver-win-x86_64.zip",
+            "sha1": "ea2cac29bd2ed39504ffa9cd17a45c54f02c361d",
+            "root": "",
+            "path": ["."]
+          }
+        }
+      }
     }
   ]
 }
