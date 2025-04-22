@@ -424,7 +424,7 @@
       "name": "reclient",
       "platforms": {
         "macos": {
-          "arm": {
+          "aarch64": {
             "url": "https://storage.googleapis.com/engflow-tools-public/reclient/5310a5a40340aa4c778fbfc6aa21f7be2f67d5ec/reclient-5310a5a40340aa4c778fbfc6aa21f7be2f67d5ec-macos-arm64.zip",
             "sha1": "d43cd72b5235ac5de891c654a5579e2f3248d0cd",
             "root": "",
