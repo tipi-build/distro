@@ -363,35 +363,6 @@
       }
     },
     {
-      "name": "elfshaker",
-      "platforms": {
-        "macos": {
-          "universal": {
-            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.16/elfshaker-macos.zip",
-            "sha1": "8abb05ed3e4cf3656eb908230a3a61dd47eef889",
-            "root": "",
-            "path": ["."]
-          }
-        },
-        "linux": {
-          "universal": {
-            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.16/elfshaker-linux.zip",
-            "sha1": "a6ad3debef27f1a8e69f5489e11e5c4b19910c3e",
-            "root": "",
-            "path": ["."]
-          }
-        },
-        "windows": {
-          "universal": {
-            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.16/elfshaker-win.zip",
-            "sha1": "bcdd2a724214d78c2fd83e94a34c79d45e6dde4f",
-            "root": "",
-            "path": ["."]
-          }
-        }
-      }
-    },
-    {
       "name": "ninja",
       "platforms": {
         "macos": {
