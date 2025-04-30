@@ -199,9 +199,9 @@
       "platforms": {
         "all": {
           "universal": {
-            "url": "https://github.com/tipi-build/cmake-tipi-provider/archive/aaa91aec23decff780812c7cb8997b2f0946077c.zip",
-            "sha1": "5dff26a187e7011f019457f3a1d3080afbef46db",
-            "root": "cmake-tipi-provider-aaa91aec23decff780812c7cb8997b2f0946077c"
+            "url": "https://github.com/tipi-build/cmake-tipi-provider/archive/8ddcd263672d7363cce326e152891c07aa8cc3e3.zip",
+            "sha1": "972c9e32fa98f6089f7e28559c3e812e9d67a79a",
+            "root": "cmake-tipi-provider-8ddcd263672d7363cce326e152891c07aa8cc3e3"
           }
         }
       }
@@ -357,35 +357,6 @@
             "url": "https://github.com/tipi-build/ssh-over-http-proxy/releases/download/v1.0.0/ssh-over-http-proxy-win.zip",
             "sha1": "b1f642db4ba0155868450c2ca69508eca1c07aba",
             "root": "ssh-over-http-proxy-win",
-            "path": ["."]
-          }
-        }
-      }
-    },
-    {
-      "name": "elfshaker",
-      "platforms": {
-        "macos": {
-          "universal": {
-            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.16/elfshaker-macos.zip",
-            "sha1": "8abb05ed3e4cf3656eb908230a3a61dd47eef889",
-            "root": "",
-            "path": ["."]
-          }
-        },
-        "linux": {
-          "universal": {
-            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.16/elfshaker-linux.zip",
-            "sha1": "a6ad3debef27f1a8e69f5489e11e5c4b19910c3e",
-            "root": "",
-            "path": ["."]
-          }
-        },
-        "windows": {
-          "universal": {
-            "url": "https://github.com/tipi-build/elfshaker/releases/download/v0.0.16/elfshaker-win.zip",
-            "sha1": "bcdd2a724214d78c2fd83e94a34c79d45e6dde4f",
-            "root": "",
             "path": ["."]
           }
         }
