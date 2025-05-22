@@ -396,8 +396,8 @@
       "platforms": {
         "macos": {
           "aarch64": {
-            "url": "https://storage.googleapis.com/engflow-tools-public/reclient/2a9f202af14285ee4f5d901079e68feaded99500/reclient-2a9f202af14285ee4f5d901079e68feaded99500-macos-arm64.tar",
-            "sha1": "b3ac5c74c683005aaf7dd9e3d417696e19761e83",
+            "url": "https://storage.googleapis.com/engflow-tools-public/reclient/2a9f202af14285ee4f5d901079e68feaded99500/reclient-2a9f202af14285ee4f5d901079e68feaded99500-macos-arm64.zip",
+            "sha1": "fca038e38418bcb6508e16e97f0912c90bd2ac61",
             "root": "",
             "path": ["."]
           }
