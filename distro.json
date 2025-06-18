@@ -1,6 +1,6 @@
 {
   "modes" : { 
-    "default" : ["python", "openssh", "environments", "ssh-over-http-proxy", "elfshaker"]
+    "default" : ["python", "openssh", "environments", "ssh-over-http-proxy", "cmake", "make", "ninja", "cmake-tipi-provider", "reclient" ]
   }
 
   ,"distro": [
@@ -166,34 +166,6 @@
       }
     },
   
-    {
-      "name": "hunter",
-      "platforms": {
-        "all": {
-          "universal": {
-            "url": "https://github.com/nxxm/hunter/archive/6efe3552dd0c1a547e8a18067003be7222d0cb24.zip",
-            "sha1": "6b9afd6a4d5cd916ea1d1dfd3adea3590bace56d",
-            "root": "hunter-6efe3552dd0c1a547e8a18067003be7222d0cb24",
-            "target": "platform"
-          }
-        }
-      }
-    },
-  
-    {
-      "name": "hunter_gate",
-      "platforms": {
-        "all": {
-          "universal": {
-            "url": "https://github.com/hunter-packages/gate/archive/42c1c27cdd556dcbc358c6ba8ad7a72a68ee2a62.zip",
-            "sha1": "a72c0958bdfdb4666ee077cdd40c22875a082915",
-            "root": "gate-42c1c27cdd556dcbc358c6ba8ad7a72a68ee2a62/cmake/HunterGate.cmake",
-            "relative_dest_file": "HunterGate.cmake"
-          }
-        }
-      }
-    },
-
     {
       "name": "cmake-tipi-provider",
       "platforms": {
