@@ -1,6 +1,6 @@
 {
   "modes" : { 
-    "default" : ["python", "openssh", "environments", "ssh-over-http-proxy", "cmake", "make", "ninja", "cmake-tipi-provider", "reclient" ]
+    "default" : ["openssh", "environments", "ssh-over-http-proxy", "cmake", "make", "ninja", "cmake-tipi-provider", "reclient" ]
   }
 
   ,"distro": [
@@ -71,9 +71,9 @@
       "platforms": {
         "all": {
           "universal": {
-            "url": "https://github.com/tipi-build/environments/archive/8313053c2080c3b802f403eb78af226ca83feb88.zip",
-            "sha1": "8315ad50dc4888b7ed064bdc31b16a68f04c0731",
-            "root": "environments-8313053c2080c3b802f403eb78af226ca83feb88"
+            "url": "https://github.com/tipi-build/environments/archive/51906a8360387fc652e6e3749a348aa70f03b657.zip",
+            "sha1": "213c401e5bfd9c03e5cd2142adda9379397fd9f7",
+            "root": "environments-51906a8360387fc652e6e3749a348aa70f03b657"
           }
         }
       }
