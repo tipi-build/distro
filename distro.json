@@ -72,7 +72,7 @@
         "all": {
           "universal": {
             "url": "https://github.com/tipi-build/environments/archive/02f4f7d2fdb2f340f9f908e366ccf6f2089649d1.zip",
-            "sha1": "ec54e32dd8b8e6f1abe3d773df24ada89144f15d",
+            "sha1": "596d00b79b707b3ec445572d7919ad068395ceca",
             "root": "environments-02f4f7d2fdb2f340f9f908e366ccf6f2089649d1"
           }
         }
