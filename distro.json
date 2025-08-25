@@ -367,17 +367,17 @@
       "name": "reclient",
       "platforms": {
         "macos": {
-          "aarch64": {
-            "url": "https://storage.googleapis.com/engflow-tools-public/reclient/770568aca0a998f58af81ad7e1aca1066cf95ab5/reclient-770568aca0a998f58af81ad7e1aca1066cf95ab5-macos-arm64.zip",
-            "sha1": "dfc57b04c4dc93068d7082f8d972901181cd0a21",
+          "universal": {
+            "url": "https://storage.googleapis.com/engflow-tools-public/reclient/958933d4c0c3097388f7341ca6bb747404620f40/reclient-958933d4c0c3097388f7341ca6bb747404620f40-macos-arm64.zip",
+            "sha1": "bbe03e765a9e6054be575a7f69cc002cf29f90a6",
             "root": "",
             "path": ["."]
           }
         },
         "linux": {
           "x86_64": {
-            "url": "https://storage.googleapis.com/engflow-tools-public/reclient/770568aca0a998f58af81ad7e1aca1066cf95ab5/reclient-770568aca0a998f58af81ad7e1aca1066cf95ab5-linux-x86_64.zip",
-            "sha1": "631eb904a0285520cb01d722e652e4b318a2d65e",
+            "url": "https://storage.googleapis.com/engflow-tools-public/reclient/958933d4c0c3097388f7341ca6bb747404620f40/reclient-958933d4c0c3097388f7341ca6bb747404620f40-linux-x86_64.zip",
+            "sha1": "204307b800e594edd3a6c7b64964d6895c09177a",
             "root": "",
             "path": ["."]
           }
