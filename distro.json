@@ -9,28 +9,28 @@
       "platforms": {
         "macos": {
           "universal": {
-            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.31.9/cmake-3.31.9-macos-universal.zip",
-            "sha1": "d6fa689a16ec1eb1e77768bd2abd385bfe7a67a0",
-            "root": "cmake-3.31.9-macos-universal/CMake.app/Contents",
-            "module_path": "share/cmake-3.31/Modules",
+            "url": "https://nxxm.indigenious.io/distro/all/CMake/v4.4.0/cmake-4.4.0-macos-universal.zip",
+            "sha1": "0aaf119e489cfd94d47f17ce58a0577b8ce4fb5c",
+            "root": "cmake-4.4.0-macos-universal/CMake.app/Contents",
+            "module_path": "share/cmake-4.4/Modules",
             "path": ["bin"]
-          } 
+          }
         },
         "linux": {
           "x86_64": {
-            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.31.9/cmake-3.31.9-linux-x86_64.zip",
-            "sha1": "46ef3fe1f7f20cb1b1bf4cacb7f1d988a20be08f",
-            "root": "cmake-3.31.9-linux-x86_64",
-            "module_path": "share/cmake-3.31/Modules",
+            "url": "https://nxxm.indigenious.io/distro/all/CMake/v4.4.0/cmake-4.4.0-linux-x86_64.zip",
+            "sha1": "ec7de52c04aa29fd981c2e9988aca9ef62e69f6a",
+            "root": "cmake-4.4.0-linux-x86_64",
+            "module_path": "share/cmake-4.4/Modules",
             "path": ["bin"]
           }
         },
         "windows": {
           "x86_64": {
-            "url": "https://nxxm.indigenious.io/distro/all/CMake/v3.31.9/cmake-3.31.9-windows-x86_64.zip",
-            "sha1": "556b31295e07a3183b62ebcf3bdfc2d4b0a503ef",
-            "root": "cmake-3.31.9-windows-x86_64",
-            "module_path": "share/cmake-3.31/Modules",
+            "url": "https://nxxm.indigenious.io/distro/all/CMake/v4.4.0/cmake-4.4.0-windows-x86_64.zip",
+            "sha1": "1a8464a028f8cec9218c7fc01cbdac18947afb14",
+            "root": "cmake-4.4.0-windows-x86_64",
+            "module_path": "share/cmake-4.4/Modules",
             "path": ["bin"]
           }
         }
