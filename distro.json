@@ -368,16 +368,16 @@
       "platforms": {
         "macos": {
           "universal": {
-            "url": "https://storage.googleapis.com/engflow-tools-public/reclient/fc9677ddab3d8d6afcfe8f6bade115ed02e0da70/reclient-fc9677ddab3d8d6afcfe8f6bade115ed02e0da70-macos-arm64.tar",
-            "sha1": "9605f0f239a5fac2578525b3d309bea57c2bcb4b",
+            "url": "https://storage.googleapis.com/engflow-tools-public/reclient/fc9677ddab3d8d6afcfe8f6bade115ed02e0da70/reclient-fc9677ddab3d8d6afcfe8f6bade115ed02e0da70-macos-arm64.zip",
+            "sha1": "af73c9b377da28afc2027f1cbd553e3b469fc2d1",
             "root": "",
             "path": ["."]
           }
         },
         "linux": {
           "x86_64": {
-            "url": "https://storage.googleapis.com/engflow-tools-public/reclient/fc9677ddab3d8d6afcfe8f6bade115ed02e0da70/reclient-fc9677ddab3d8d6afcfe8f6bade115ed02e0da70-linux-x86_64.tar",
-            "sha1": "7c0ac014e1cb29e334689bfc1c461e723c8002d6",
+            "url": "https://storage.googleapis.com/engflow-tools-public/reclient/fc9677ddab3d8d6afcfe8f6bade115ed02e0da70/reclient-fc9677ddab3d8d6afcfe8f6bade115ed02e0da70-linux-x86_64.zip",
+            "sha1": "2930ae60ccac5a8bd7accf0b86c0c72bf50b7521",
             "root": "",
             "path": ["."]
           }
